@@ -29,6 +29,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        {/* 51.la 统计代码 */}
+        <script 
+          charSet="UTF-8" 
+          id="LA_COLLECT" 
+          src="//sdk.51.la/js-sdk-pro.min.js"
+          async
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `LA.init({id:"3NwBxMC1Swq9aXM0",ck:"3NwBxMC1Swq9aXM0"})`
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
       >
