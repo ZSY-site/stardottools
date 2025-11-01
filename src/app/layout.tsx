@@ -39,7 +39,13 @@ export default function RootLayout({
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `LA.init({id:"3NwBxMC1Swq9aXM0",ck:"3NwBxMC1Swq9aXM0"})`
+            __html: `LA.init({
+              id:"3NwBxMC1Swq9aXM0",
+              ck:"3NwBxMC1Swq9aXM0",
+              autoTrack: true,
+              hashMode: true,
+              screenRecord: true
+            })`
           }}
         />
       </head>
