@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tools/layout,_N_T_/tools/image-mosaic/layout,_N_T_/tools/image-mosaic/page,_N_T_/tools/image-mosaic/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tools/image-mosaic/__PAGE__",
+    "/tools/image-mosaic",
+    "/tools",
+    "/_index"
+  ]
+}

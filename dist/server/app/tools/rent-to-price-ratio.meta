@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tools/layout,_N_T_/tools/rent-to-price-ratio/layout,_N_T_/tools/rent-to-price-ratio/page,_N_T_/tools/rent-to-price-ratio/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tools/rent-to-price-ratio/__PAGE__",
+    "/tools/rent-to-price-ratio",
+    "/tools",
+    "/_index"
+  ]
+}
