@@ -34,18 +34,27 @@ export default function RootLayout({
         <script 
           charSet="UTF-8" 
           id="LA_COLLECT" 
-          src="//sdk.51.la/js-sdk-pro.min.js"
+          src="https://sdk.51.la/js-sdk-pro.min.js"
           async
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `LA.init({
-              id:"3NwBxMC1Swq9aXM0",
-              ck:"3NwBxMC1Swq9aXM0",
-              autoTrack: true,
-              hashMode: true,
-              screenRecord: true
-            })`
+            __html: `
+            window.LA_LOADED = function() {
+              LA.init({
+                id:"3NwBxMC1Swq9aXM0",
+                ck:"3NwBxMC1Swq9aXM0",
+                autoTrack: true,
+                hashMode: true,
+                screenRecord: true
+              });
+            }
+            if (window.LA) {
+              window.LA_LOADED();
+            } else {
+              document.addEventListener('LA_LOAD', window.LA_LOADED);
+            }
+            `
           }}
         />
       </head>
