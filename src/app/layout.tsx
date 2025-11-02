@@ -36,6 +36,7 @@ export default function RootLayout({
           id="LA_COLLECT" 
           src="https://sdk.51.la/js-sdk-pro.min.js"
           async
+          crossOrigin="anonymous"
         />
         <script
           dangerouslySetInnerHTML={{
