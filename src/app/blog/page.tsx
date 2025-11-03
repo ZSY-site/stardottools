@@ -221,6 +221,42 @@ const blogPosts = [
     readTime: { 'zh-CN': '12分钟阅读', 'zh-HK': '12分鐘閱讀', 'en': '12 min read' },
     featured: true,
     tags: ['微服务', '架构设计', '分布式系统', '云原生']
+  },
+  {
+    id: 13,
+    title: { 
+      'zh-CN': 'Google Analytics 4 (GA4) 网站数据分析最佳实践', 
+      'zh-HK': 'Google Analytics 4 (GA4) 網站數據分析最佳實踐', 
+      'en': 'Google Analytics 4 (GA4) Website Data Analysis Best Practices' 
+    },
+    excerpt: {
+      'zh-CN': '深入解析GA4的核心功能、配置技巧和数据分析方法，帮助网站运营者充分利用数据驱动决策。',
+      'zh-HK': '深入解析GA4嘅核心功能、配置技巧同數據分析方法，幫助網站運營者充分利用數據驅動決策。',
+      'en': 'In-depth analysis of GA4 core features, configuration techniques and data analysis methods to help website operators make data-driven decisions.'
+    },
+    category: { 'zh-CN': '数据分析', 'zh-HK': '數據分析', 'en': 'Data Analysis' },
+    date: '2025-10-26',
+    readTime: { 'zh-CN': '7分钟阅读', 'zh-HK': '7分鐘閱讀', 'en': '7 min read' },
+    featured: true,
+    tags: ['Google Analytics', 'GA4', '数据分析', '网站分析', '数据驱动', 'SEO优化']
+  },
+  {
+    id: 14,
+    title: { 
+      'zh-CN': '人工智能在软件开发中的应用与最佳实践', 
+      'zh-HK': '人工智能在軟件開發中的應用與最佳實踐', 
+      'en': 'Artificial Intelligence Applications and Best Practices in Software Development' 
+    },
+    excerpt: {
+      'zh-CN': '探索人工智能如何改变软件开发流程，从代码生成到测试自动化，再到智能调试和性能优化。',
+      'zh-HK': '探索人工智能如何改變軟件開發流程，從代碼生成到測試自動化，再到智能調試和性能優化。',
+      'en': 'Explore how artificial intelligence is transforming software development processes, from code generation to test automation, intelligent debugging, and performance optimization.'
+    },
+    category: { 'zh-CN': '人工智能', 'zh-HK': '人工智能', 'en': 'Artificial Intelligence' },
+    date: '2025-10-20',
+    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    featured: true,
+    tags: ['人工智能', '软件开发', 'AI辅助编程', '智能测试']
   }
 ]
 
