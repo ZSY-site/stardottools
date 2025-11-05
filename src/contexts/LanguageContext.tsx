@@ -16,7 +16,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   // 从localStorage读取保存的语言设置
   useEffect(() => {
     const savedLanguage = localStorage.getItem('preferred-language') as Language
-    if (savedLanguage && ['zh-CN', 'zh-HK', 'en'].includes(savedLanguage)) {
+    if (savedLanguage && ['zh-CN', 'en'].includes(savedLanguage)) {
       setLanguage(savedLanguage)
     }
   }, [])

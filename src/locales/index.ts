@@ -1,4 +1,4 @@
-export type Language = 'zh-CN' | 'zh-HK' | 'en'
+export type Language = 'zh-CN' | 'en'
 
 export interface Translations {
   [key: string]: any
@@ -341,175 +341,7 @@ export const translations: Record<Language, Translations> = {
       contact: '联系我们'
     }
   },
-  'zh-HK': {
-    common: {
-      logo: '星點工具箱',
-      searchPlaceholder: '搜尋工具...',
-      home: '首頁',
-      categories: '工具分類',
-      popular: '熱門工具',
-      blog: '網誌',
-      viewAll: '瀏覽所有分類',
-      learnMore: '了解更多',
-      tryNow: '立即試用'
-    },
-    hero: {
-      title: '星點工具箱 - 專業嘅在線工具平台',
-      subtitle: '免費、高效、即開即用嘅專業工具集合，為開發者、設計師同辦公人員提供一站式解決方案',
-      cta: '開始探索',
-      featuredTools: '精選工具',
-      continuouslyUpdated: '持續更新',
-      zeroCost: '完全免費',
-      noHiddenFees: '無隱藏費用',
-      noRegistration: '無需註冊',
-      startNow: '立即開始',
-      exploreMore: '探索更多'
-    },
-    categories: {
-      title: '熱門工具分類',
-      subtitle: '星點工具箱提供涵蓋開發、設計、辦公有多個領域嘅專業工具',
-      development: '開發工具',
-      text: '文本處理',
-      image: '圖像處理',
-      data: '數據生成',
-      encryption: '加密解密'
-    },
-    popular: {
-      title: '熱門工具推薦',
-      subtitle: '星點工具箱用戶最常使用嘅熱門工具',
-      useNow: '立即使用'
-    },
-    blog: {
-      title: '網誌',
-      subtitle: '發現關於在線工具、生產力同網頁開發嘅技巧、教程同見解',
-      featured: '精選文章',
-      allArticles: '所有文章',
-      readMore: '閱讀更多',
-      categories: '分類',
-      tags: '標籤',
-      published: '發佈於',
-      author: '作者'
-    },
-    tools: {
-      title: '所有工具',
-      subtitle: '發現星點工具箱完整嘅工具集合，涵蓋開發、設計、辦公有多個領域',
-      searchPlaceholder: '搜索工具名稱、描述或標籤...',
-      found: '找到 {count} 個工具',
-      noResults: '冇找到匹配嘅工具',
-      tryDifferent: '嘗試使用唔同嘅關鍵詞或分類',
-      featured: '精選',
-      useNow: '立即使用',
-      previous: '上一頁',
-      next: '下一頁'
-    },
-    barcodeGenerator: {
-      title: '在線條形碼生成器',
-      description: '快速生成各種類型嘅條形碼，支持自定義樣式同參數設置',
-      inputTitle: '條形碼設置',
-      inputText: '輸入文本內容',
-      inputPlaceholder: '請輸入要編碼嘅文本內容...',
-      inputTip: '支持數字、字母同特殊字符（根據選擇嘅條形碼類型）',
-      barcodeType: '條形碼類型',
-      sizeSettings: '尺寸設置',
-      barWidth: '條寬',
-      barHeight: '條高',
-      colorSettings: '顏色設置',
-      barColor: '條碼顏色',
-      bgColor: '背景顏色',
-      backgroundColor: '背景顏色',
-      noInput: '請輸入要編碼嘅文本',
-      generationError: '生成失敗',
-      copied: '條形碼已複製到剪貼板',
-      copyError: '複製失敗',
-      generating: '生成中...',
-      generate: '生成條形碼',
-      clear: '清空',
-      outputTitle: '條形碼預覽',
-      noBarcode: '請設置參數並生成條形碼',
-      preview: '預覽',
-      download: '下載PNG',
-      copyImage: '複製圖片',
-      barcodeInfo: '條形碼信息',
-      featuresTitle: '功能特性',
-      usageTitle: '使用說明'
-    },
-    imageMosaic: {
-      title: '在線圖片馬賽克工具',
-      description: '為圖片添加馬賽克效果，保護隱私信息，支持全圖馬賽克同局部區域馬賽克',
-      inputTitle: '圖片上傳同設置',
-      uploadImage: '上傳圖片',
-      clickToUpload: '點擊選擇圖片文件',
-      fileLimit: '支持 JPG, PNG, GIF, WebP 等格式，最大10MB',
-      mosaicSettings: '馬賽克設置',
-      blockSize: '馬賽克塊大小',
-      intensity: '馬賽克強度',
-      processing: '處理中...',
-      applyFull: '全圖馬賽克',
-      applyArea: '局部馬賽克',
-      clear: '清空',
-      outputTitle: '馬賽克效果預覽',
-      noImage: '請上傳圖片開始處理',
-      originalImage: '原圖預覽',
-      clickToSelect: '點擊圖片選擇馬賽克區域',
-      mosaicResult: '馬賽克效果',
-      download: '下載圖片',
-      featuresTitle: '功能特性',
-      usageTitle: '使用說明',
-      invalidFile: '請上傳圖片文件',
-      fileTooLarge: '文件大小不能超過10MB',
-      noSelection: '請先選擇區域',
-      processingError: '處理失敗'
-    },
-    imageResize: {
-      title: '在線圖片縮放工具',
-      description: '調整圖片尺寸，支持自定義寬高、保持比例、質量設置等多種功能',
-      inputTitle: '圖片上傳同設置',
-      uploadImage: '上傳圖片',
-      clickToUpload: '點擊選擇圖片文件',
-      fileLimit: '支持 JPG, PNG, GIF, WebP 等格式，最大10MB',
-      resizeSettings: '縮放設置',
-      settingsTitle: '縮放設置',
-      dimensions: '尺寸',
-      width: '寬度',
-      height: '高度',
-      maintainAspectRatio: '保持寬高比',
-      maintainRatio: '保持寬高比',
-      quality: '圖片質量',
-      format: '輸出格式',
-      processing: '處理中...',
-      resize: '縮放圖片',
-      clear: '清空',
-      outputTitle: '縮放效果預覽',
-      noImage: '請上傳圖片開始處理',
-      originalImage: '原圖預覽',
-      resizedImage: '縮放後圖片',
-      download: '下載圖片',
-      featuresTitle: '功能特性',
-      usageTitle: '使用說明',
-      invalidFile: '請上傳圖片文件',
-      fileTooLarge: '文件大小不能超過10MB',
-      processingError: '處理失敗',
-      resizeError: '圖片調整失敗',
-      copied: '已複製到剪貼板',
-      copyError: '複製失敗',
-      presetSizes: '預設尺寸',
-      originalTitle: '原圖',
-      noOriginal: '無原圖',
-      resizedTitle: '縮放後',
-      noResized: '無縮放後圖片',
-      copy: '複製'
-    },
-    footer: {
-      copyright: '© 2024 星點工具箱(stardottools.top). 保留所有權利.',
-      description: '星點工具箱提供免費、高效、即開即用嘅專業工具集合，涵蓋開發、設計、辦公有多個領域',
-      quickLinks: '快速鏈接',
-      popularCategories: '熱門分類',
-      about: '關於我哋',
-      privacy: '隱私政策',
-      terms: '服務條款',
-      contact: '聯繫我哋'
-    }
-  },
+
   'en': {
     common: {
       logo: 'StarDot Tools',
@@ -683,7 +515,6 @@ export const translations: Record<Language, Translations> = {
 
 export const languageNames: Record<Language, string> = {
   'zh-CN': '简体中文',
-  'zh-HK': '粤语',
   'en': 'English'
 }
 

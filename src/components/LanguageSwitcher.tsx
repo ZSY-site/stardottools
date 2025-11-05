@@ -9,7 +9,7 @@ export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  const languages: Language[] = ['zh-CN', 'zh-HK', 'en']
+  const languages: Language[] = ['zh-CN', 'en']
 
   // 点击外部关闭下拉菜单
   useEffect(() => {
@@ -37,7 +37,7 @@ export default function LanguageSwitcher() {
         className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors border border-gray-300 rounded-lg bg-white hover:bg-gray-50"
       >
         <span className="w-6 h-6 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full text-xs font-bold">
-          {language === 'zh-CN' ? '简' : language === 'zh-HK' ? '粤' : 'EN'}
+          {language === 'zh-CN' ? '简' : 'EN'}
         </span>
         <span className="hidden sm:inline">{languageNames[language]}</span>
         <svg 
@@ -65,7 +65,7 @@ export default function LanguageSwitcher() {
               >
                 <div className="flex items-center space-x-3">
                   <span className="w-6 h-6 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full text-xs font-bold">
-                    {lang === 'zh-CN' ? '简' : lang === 'zh-HK' ? '粤' : 'EN'}
+                    {lang === 'zh-CN' ? '简' : 'EN'}
                   </span>
                   <span>{languageNames[lang]}</span>
                 </div>

@@ -10,17 +10,15 @@ const blogPosts = [
     id: 1,
     title: { 
       'zh-CN': 'ChatGPT Atlas浏览器官网下载 - OpenAI推出的AI智能浏览器', 
-      'zh-HK': 'ChatGPT Atlas瀏覽器官網下載 - OpenAI推出嘅AI智能瀏覽器', 
       'en': 'ChatGPT Atlas Browser Official Download - AI Smart Browser by OpenAI' 
     },
     excerpt: {
       'zh-CN': 'OpenAI推出的革命性AI浏览器，集成ChatGPT智能助手，支持侧边栏聊天、智能记忆、自动化操作等创新功能。',
-      'zh-HK': 'OpenAI推出嘅革命性AI瀏覽器，集成ChatGPT智能助手，支持側邊欄聊天、智能記憶、自動化操作等創新功能。',
       'en': 'Revolutionary AI browser by OpenAI, integrating ChatGPT smart assistant, supporting sidebar chat, intelligent memory, automation and other innovative features.'
     },
-    category: { 'zh-CN': 'AI工具', 'zh-HK': 'AI工具', 'en': 'AI Tools' },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
     date: '2025-10-25',
-    readTime: { 'zh-CN': '5分钟阅读', 'zh-HK': '5分鐘閱讀', 'en': '5 min read' },
+    readTime: { 'zh-CN': '5分钟阅读', 'en': '5 min read' },
     featured: true,
     tags: ['ChatGPT浏览器', 'AI浏览器', 'OpenAI', 'Atlas浏览器', '智能浏览器', 'AI助手']
   },
@@ -28,17 +26,15 @@ const blogPosts = [
     id: 2,
     title: { 
       'zh-CN': 'Perplexity Comet浏览器官网下载 - AI驱动的智能浏览器', 
-      'zh-HK': 'Perplexity Comet瀏覽器官網下載 - AI驅動嘅智能瀏覽器', 
       'en': 'Perplexity Comet Browser Official Download - AI-Powered Smart Browser' 
     },
     excerpt: {
       'zh-CN': 'Comet是由Perplexity推出的AI智能浏览器，集成强大的AI助手功能，支持智能搜索、内容理解、标签管理等创新功能。',
-      'zh-HK': 'Comet係由Perplexity推出嘅AI智能瀏覽器，集成強大嘅AI助手功能，支持智能搜索、內容理解、標籤管理等創新功能。',
       'en': 'Comet is an AI smart browser launched by Perplexity, integrating powerful AI assistant features, supporting intelligent search, content understanding, tag management and other innovative functions.'
     },
-    category: { 'zh-CN': 'AI工具', 'zh-HK': 'AI工具', 'en': 'AI Tools' },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
     date: '2025-10-24',
-    readTime: { 'zh-CN': '4分钟阅读', 'zh-HK': '4分鐘閱讀', 'en': '4 min read' },
+    readTime: { 'zh-CN': '4分钟阅读', 'en': '4 min read' },
     featured: true,
     tags: ['AI浏览器', 'Perplexity', 'Comet', '智能浏览器', 'AI助手', 'Comet浏览器下载']
   },
@@ -46,17 +42,15 @@ const blogPosts = [
     id: 3,
     title: { 
       'zh-CN': 'Next.js 14新特性详解 - 服务端组件和App Router', 
-      'zh-HK': 'Next.js 14新特性詳解 - 服務端組件同App Router', 
       'en': 'Next.js 14 New Features - Server Components and App Router' 
     },
     excerpt: {
       'zh-CN': '深入解析Next.js 14的最新特性，包括服务端组件、App Router、Turbopack等核心功能的详细使用指南。',
-      'zh-HK': '深入解析Next.js 14嘅最新特性，包括服務端組件、App Router、Turbopack等核心功能嘅詳細使用指南。',
       'en': 'In-depth analysis of Next.js 14 latest features, including server components, App Router, Turbopack and other core functionalities.'
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-23',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: true,
     tags: ['Next.js', 'React', '前端框架', '服务端渲染', 'App Router']
   },
@@ -64,17 +58,15 @@ const blogPosts = [
     id: 4,
     title: { 
       'zh-CN': 'TypeScript 5.5新功能解析 - 类型系统优化', 
-      'zh-HK': 'TypeScript 5.5新功能解析 - 類型系統優化', 
       'en': 'TypeScript 5.5 New Features - Type System Optimization' 
     },
     excerpt: {
       'zh-CN': 'TypeScript 5.5带来了多项类型系统优化，包括改进的推断能力、新的实用类型和更好的错误提示。',
-      'zh-HK': 'TypeScript 5.5帶來咗多項類型系統優化，包括改進嘅推斷能力、新嘅實用類型同更好嘅錯誤提示。',
       'en': 'TypeScript 5.5 brings multiple type system optimizations, including improved inference capabilities, new utility types and better error messages.'
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-22',
-    readTime: { 'zh-CN': '6分钟阅读', 'zh-HK': '6分鐘閱讀', 'en': '6 min read' },
+    readTime: { 'zh-CN': '6分钟阅读', 'en': '6 min read' },
     featured: false,
     tags: ['TypeScript', 'JavaScript', '类型系统', '前端开发']
   },
@@ -82,17 +74,15 @@ const blogPosts = [
     id: 5,
     title: { 
       'zh-CN': 'Docker容器化部署最佳实践', 
-      'zh-HK': 'Docker容器化部署最佳實踐', 
       'en': 'Docker Container Deployment Best Practices' 
     },
     excerpt: {
       'zh-CN': '分享Docker容器化部署的最佳实践，包括镜像优化、网络配置、安全设置和性能调优。',
-      'zh-HK': '分享Docker容器化部署嘅最佳實踐，包括鏡像優化、網絡配置、安全設置同性能調優。',
       'en': 'Sharing Docker container deployment best practices, including image optimization, network configuration, security settings and performance tuning.'
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-21',
-    readTime: { 'zh-CN': '10分钟阅读', 'zh-HK': '10分鐘閱讀', 'en': '10 min read' },
+    readTime: { 'zh-CN': '10分钟阅读', 'en': '10 min read' },
     featured: true,
     tags: ['Docker', '容器化', '部署', 'DevOps', '云原生']
   },
@@ -100,17 +90,15 @@ const blogPosts = [
     id: 6,
     title: { 
       'zh-CN': 'Node.js性能优化技巧', 
-      'zh-HK': 'Node.js性能優化技巧', 
       'en': 'Node.js Performance Optimization Tips' 
     },
     excerpt: {
       'zh-CN': '深入探讨Node.js应用的性能优化技巧，包括内存管理、事件循环优化和异步编程最佳实践。',
-      'zh-HK': '深入探討Node.js應用嘅性能優化技巧，包括內存管理、事件循環優化同異步編程最佳實踐。',
       'en': 'In-depth discussion of Node.js application performance optimization techniques, including memory management, event loop optimization and asynchronous programming best practices.'
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-20',
-    readTime: { 'zh-CN': '7分钟阅读', 'zh-HK': '7分鐘閱讀', 'en': '7 min read' },
+    readTime: { 'zh-CN': '7分钟阅读', 'en': '7 min read' },
     featured: false,
     tags: ['Node.js', '性能优化', 'JavaScript', '后端开发']
   },
@@ -118,17 +106,15 @@ const blogPosts = [
     id: 7,
     title: { 
       'zh-CN': 'React 18并发特性深度解析', 
-      'zh-HK': 'React 18併發特性深度解析', 
       'en': 'React 18 Concurrent Features Deep Dive' 
     },
     excerpt: {
       'zh-CN': '详细解析React 18的并发特性，包括自动批处理、过渡更新和Suspense等新功能。',
-      'zh-HK': '詳細解析React 18嘅併發特性，包括自動批處理、過渡更新同Suspense等新功能。',
       'en': 'Detailed analysis of React 18 concurrent features, including automatic batching, transition updates and Suspense.'
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-19',
-    readTime: { 'zh-CN': '9分钟阅读', 'zh-HK': '9分鐘閱讀', 'en': '9 min read' },
+    readTime: { 'zh-CN': '9分钟阅读', 'en': '9 min read' },
     featured: false,
     tags: ['React', '前端框架', '并发渲染', 'JavaScript']
   },
@@ -136,17 +122,15 @@ const blogPosts = [
     id: 8,
     title: { 
       'zh-CN': 'Python FastAPI高性能Web框架指南', 
-      'zh-HK': 'Python FastAPI高性能Web框架指南', 
       'en': 'Python FastAPI High Performance Web Framework Guide' 
     },
     excerpt: {
       'zh-CN': 'FastAPI是现代Python Web框架，具有自动API文档生成、类型提示和高性能特性。',
-      'zh-HK': 'FastAPI係現代Python Web框架，具有自動API文檔生成、類型提示同高性能特性。',
       'en': 'FastAPI is a modern Python web framework with automatic API documentation generation, type hints and high performance.'
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-18',
-    readTime: { 'zh-CN': '6分钟阅读', 'zh-HK': '6分鐘閱讀', 'en': '6 min read' },
+    readTime: { 'zh-CN': '6分钟阅读', 'en': '6 min read' },
     featured: false,
     tags: ['Python', 'FastAPI', 'Web框架', '后端开发']
   },
@@ -154,17 +138,15 @@ const blogPosts = [
     id: 9,
     title: { 
       'zh-CN': 'Tailwind CSS实用技巧与最佳实践', 
-      'zh-HK': 'Tailwind CSS實用技巧與最佳實踐', 
       'en': 'Tailwind CSS Practical Tips and Best Practices' 
     },
     excerpt: {
       'zh-CN': '分享Tailwind CSS在实际项目中的使用技巧，包括组件提取、自定义配置和性能优化。',
-      'zh-HK': '分享Tailwind CSS在實際項目中嘅使用技巧，包括組件提取、自定義配置同性能優化。',
       'en': 'Sharing Tailwind CSS usage tips in real projects, including component extraction, custom configuration and performance optimization.'
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-17',
-    readTime: { 'zh-CN': '5分钟阅读', 'zh-HK': '5分鐘閱讀', 'en': '5 min read' },
+    readTime: { 'zh-CN': '5分钟阅读', 'en': '5 min read' },
     featured: false,
     tags: ['Tailwind CSS', 'CSS框架', '前端开发', '样式']
   },
@@ -172,17 +154,15 @@ const blogPosts = [
     id: 10,
     title: { 
       'zh-CN': 'Git高级技巧与团队协作规范', 
-      'zh-HK': 'Git高級技巧與團隊協作規範', 
       'en': 'Git Advanced Techniques and Team Collaboration Standards' 
     },
     excerpt: {
       'zh-CN': '深入讲解Git的高级使用技巧，包括分支管理、合并策略和团队协作的最佳实践。',
-      'zh-HK': '深入講解Git嘅高級使用技巧，包括分支管理、合併策略同團隊協作嘅最佳實踐。',
       'en': 'In-depth explanation of Git advanced techniques, including branch management, merge strategies and team collaboration best practices.'
     },
-    category: { 'zh-CN': '开发工具', 'zh-HK': '開發工具', 'en': 'Development Tools' },
+    category: { 'zh-CN': '开发工具', 'en': 'Development Tools' },
     date: '2025-10-16',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: false,
     tags: ['Git', '版本控制', '团队协作', '开发工具']
   },
@@ -190,17 +170,15 @@ const blogPosts = [
     id: 11,
     title: { 
       'zh-CN': '数据库优化与索引设计原则', 
-      'zh-HK': '數據庫優化與索引設計原則', 
       'en': 'Database Optimization and Index Design Principles' 
     },
     excerpt: {
       'zh-CN': '分享数据库性能优化的关键技巧，包括索引设计、查询优化和存储引擎选择。',
-      'zh-HK': '分享數據庫性能優化嘅關鍵技巧，包括索引設計、查詢優化同存儲引擎選擇。',
       'en': 'Sharing key techniques for database performance optimization, including index design, query optimization and storage engine selection.'
     },
-    category: { 'zh-CN': '数据库', 'zh-HK': '數據庫', 'en': 'Database' },
+    category: { 'zh-CN': '数据库', 'en': 'Database' },
     date: '2025-10-15',
-    readTime: { 'zh-CN': '11分钟阅读', 'zh-HK': '11分鐘閱讀', 'en': '11 min read' },
+    readTime: { 'zh-CN': '11分钟阅读', 'en': '11 min read' },
     featured: false,
     tags: ['数据库', 'SQL', '性能优化', '索引']
   },
@@ -208,17 +186,15 @@ const blogPosts = [
     id: 12,
     title: { 
       'zh-CN': '微服务架构设计与实践指南', 
-      'zh-HK': '微服務架構設計與實踐指南', 
       'en': 'Microservices Architecture Design and Practice Guide' 
     },
     excerpt: {
       'zh-CN': '全面介绍微服务架构的设计原则、技术选型和实际项目中的最佳实践。',
-      'zh-HK': '全面介紹微服務架構嘅設計原則、技術選型同實際項目中嘅最佳實踐。',
       'en': 'Comprehensive introduction to microservices architecture design principles, technology selection and best practices in real projects.'
     },
-    category: { 'zh-CN': '架构设计', 'zh-HK': '架構設計', 'en': 'Architecture Design' },
+    category: { 'zh-CN': '架构设计', 'en': 'Architecture Design' },
     date: '2025-10-14',
-    readTime: { 'zh-CN': '12分钟阅读', 'zh-HK': '12分鐘閱讀', 'en': '12 min read' },
+    readTime: { 'zh-CN': '12分钟阅读', 'en': '12 min read' },
     featured: true,
     tags: ['微服务', '架构设计', '分布式系统', '云原生']
   },
@@ -226,17 +202,15 @@ const blogPosts = [
     id: 13,
     title: { 
       'zh-CN': 'Google Analytics 4 (GA4) 网站数据分析最佳实践', 
-      'zh-HK': 'Google Analytics 4 (GA4) 網站數據分析最佳實踐', 
       'en': 'Google Analytics 4 (GA4) Website Data Analysis Best Practices' 
     },
     excerpt: {
       'zh-CN': '深入解析GA4的核心功能、配置技巧和数据分析方法，帮助网站运营者充分利用数据驱动决策。',
-      'zh-HK': '深入解析GA4嘅核心功能、配置技巧同數據分析方法，幫助網站運營者充分利用數據驅動決策。',
       'en': 'In-depth analysis of GA4 core features, configuration techniques and data analysis methods to help website operators make data-driven decisions.'
     },
-    category: { 'zh-CN': '数据分析', 'zh-HK': '數據分析', 'en': 'Data Analysis' },
+    category: { 'zh-CN': '数据分析', 'en': 'Data Analysis' },
     date: '2025-10-26',
-    readTime: { 'zh-CN': '7分钟阅读', 'zh-HK': '7分鐘閱讀', 'en': '7 min read' },
+    readTime: { 'zh-CN': '7分钟阅读', 'en': '7 min read' },
     featured: true,
     tags: ['Google Analytics', 'GA4', '数据分析', '网站分析', '数据驱动', 'SEO优化']
   },
@@ -244,17 +218,15 @@ const blogPosts = [
     id: 14,
     title: { 
       'zh-CN': '人工智能在软件开发中的应用与最佳实践', 
-      'zh-HK': '人工智能在軟件開發中的應用與最佳實踐', 
       'en': 'Artificial Intelligence Applications and Best Practices in Software Development' 
     },
     excerpt: {
       'zh-CN': '探索人工智能如何改变软件开发流程，从代码生成到测试自动化，再到智能调试和性能优化。',
-      'zh-HK': '探索人工智能如何改變軟件開發流程，從代碼生成到測試自動化，再到智能調試和性能優化。',
       'en': 'Explore how artificial intelligence is transforming software development processes, from code generation to test automation, intelligent debugging, and performance optimization.'
     },
-    category: { 'zh-CN': '人工智能', 'zh-HK': '人工智能', 'en': 'Artificial Intelligence' },
+    category: { 'zh-CN': '人工智能', 'en': 'Artificial Intelligence' },
     date: '2025-10-20',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: true,
     tags: ['人工智能', '软件开发', 'AI辅助编程', '智能测试']
   }

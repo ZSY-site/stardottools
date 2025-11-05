@@ -22,13 +22,12 @@ interface Tool {
 const mockTools: Tool[] = [
   {
     id: 1,
-    name: { 'zh-CN': 'JSON格式化工具', 'zh-HK': 'JSON格式化工具', 'en': 'JSON Formatter' },
+    name: { 'zh-CN': 'JSON格式化工具', 'en': 'JSON Formatter' },
     description: { 
       'zh-CN': '在线JSON格式化、验证和美化工具', 
-      'zh-HK': '在線JSON格式化、驗證同美化工具', 
       'en': 'Online JSON formatting, validation and beautification tool' 
     },
-    category: { 'zh-CN': '开发工具', 'zh-HK': '開發工具', 'en': 'Development' },
+    category: { 'zh-CN': '开发工具', 'en': 'Development' },
     icon: '{}',
     url: '/tools/json-formatter',
     rating: 4.8,
@@ -38,13 +37,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 2,
-    name: { 'zh-CN': 'URL编码解码', 'zh-HK': 'URL編碼解碼', 'en': 'URL Encoder/Decoder' },
+    name: { 'zh-CN': 'URL编码解码', 'en': 'URL Encoder/Decoder' },
     description: { 
       'zh-CN': 'URL编码和解码工具，支持多种编码格式', 
-      'zh-HK': 'URL編碼同解碼工具，支持多種編碼格式', 
       'en': 'URL encoding and decoding tool supporting multiple formats' 
     },
-    category: { 'zh-CN': '网络工具', 'zh-HK': '網絡工具', 'en': 'Network Tools' },
+    category: { 'zh-CN': '网络工具', 'en': 'Network Tools' },
     icon: '🔗',
     url: '/tools/url-encoder',
     rating: 4.7,
@@ -54,13 +52,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 3,
-    name: { 'zh-CN': '乌克兰地址生成器', 'zh-HK': '烏克蘭地址生成器', 'en': 'Ukraine Address Generator' },
+    name: { 'zh-CN': '乌克兰地址生成器', 'en': 'Ukraine Address Generator' },
     description: { 
       'zh-CN': '生成乌克兰风格的随机地址信息', 
-      'zh-HK': '生成烏克蘭風格嘅隨機地址信息', 
       'en': 'Generate random Ukraine-style address information' 
     },
-    category: { 'zh-CN': '数据生成', 'zh-HK': '數據生成', 'en': 'Data Generation' },
+    category: { 'zh-CN': '数据生成', 'en': 'Data Generation' },
     icon: '🏠',
     url: '/tools/ukraine-address',
     rating: 4.6,
@@ -70,13 +67,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 4,
-    name: { 'zh-CN': 'Base64编码解码', 'zh-HK': 'Base64編碼解碼', 'en': 'Base64 Encoder/Decoder' },
+    name: { 'zh-CN': 'Base64编码解码', 'en': 'Base64 Encoder/Decoder' },
     description: { 
       'zh-CN': 'Base64编码和解码工具，支持文本和文件', 
-      'zh-HK': 'Base64編碼同解碼工具，支持文本同文件', 
       'en': 'Base64 encoding and decoding tool supporting text and files' 
     },
-    category: { 'zh-CN': '加密解密', 'zh-HK': '加密解密', 'en': 'Encryption' },
+    category: { 'zh-CN': '加密解密', 'en': 'Encryption' },
     icon: '🔒',
     url: '/tools/base64',
     rating: 4.5,
@@ -86,13 +82,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 5,
-    name: { 'zh-CN': '文本差异比较', 'zh-HK': '文本差異比較', 'en': 'Text Diff Tool' },
+    name: { 'zh-CN': '文本差异比较', 'en': 'Text Diff Tool' },
     description: { 
       'zh-CN': '比较两个文本文件的差异，高亮显示不同之处', 
-      'zh-HK': '比較兩個文本文件嘅差異，高亮顯示唔同之處', 
       'en': 'Compare differences between two text files with highlighting' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '📝',
     url: '/tools/text-diff',
     rating: 4.4,
@@ -102,13 +97,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 6,
-    name: { 'zh-CN': '图片压缩工具', 'zh-HK': '圖片壓縮工具', 'en': 'Image Compressor' },
+    name: { 'zh-CN': '图片压缩工具', 'en': 'Image Compressor' },
     description: { 
       'zh-CN': '在线图片压缩，保持质量的同时减小文件大小', 
-      'zh-HK': '在線圖片壓縮，保持質量嘅同時減細文件大小', 
       'en': 'Online image compression while maintaining quality' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '🖼️',
     url: '/tools/image-compress',
     rating: 4.7,
@@ -118,13 +112,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 7,
-    name: { 'zh-CN': '模拟时钟小组件', 'zh-HK': '模擬時鐘小組件', 'en': 'Analog Clock Widget' },
+    name: { 'zh-CN': '模拟时钟小组件', 'en': 'Analog Clock Widget' },
     description: { 
       'zh-CN': '精美的现代风格模拟时钟小组件，实时更新', 
-      'zh-HK': '精美嘅現代風格模擬時鐘小組件，實時更新', 
       'en': 'Beautiful modern analog clock widget with real-time updates' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '⏰',
     url: '/tools/analog-clock',
     rating: 4.3,
@@ -134,13 +127,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 8,
-    name: { 'zh-CN': '亚特兰大随机地址生成器', 'zh-HK': '亞特蘭大隨機地址生成器', 'en': 'Atlanta Address Generator' },
+    name: { 'zh-CN': '亚特兰大随机地址生成器', 'en': 'Atlanta Address Generator' },
     description: { 
       'zh-CN': '在线生成随机亚特兰大地址', 
-      'zh-HK': '在線生成隨機亞特蘭大地址', 
       'en': 'Generate random Atlanta addresses online' 
     },
-    category: { 'zh-CN': '数据生成', 'zh-HK': '數據生成', 'en': 'Data Generation' },
+    category: { 'zh-CN': '数据生成', 'en': 'Data Generation' },
     icon: '🗺️',
     url: '/tools/atlanta-address',
     rating: 4.2,
@@ -150,13 +142,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 9,
-    name: { 'zh-CN': '以色列地址生成器', 'zh-HK': '以色列地址生成器', 'en': 'Israel Address Generator' },
+    name: { 'zh-CN': '以色列地址生成器', 'en': 'Israel Address Generator' },
     description: { 
       'zh-CN': '生成以色列风格的随机地址信息', 
-      'zh-HK': '生成以色列風格嘅隨機地址信息', 
       'en': 'Generate random Israel-style address information' 
     },
-    category: { 'zh-CN': '数据生成', 'zh-HK': '數據生成', 'en': 'Data Generation' },
+    category: { 'zh-CN': '数据生成', 'en': 'Data Generation' },
     icon: '🏠',
     url: '/tools/israel-address',
     rating: 4.5,
@@ -167,13 +158,12 @@ const mockTools: Tool[] = [
   // 新添加的工具
   {
     id: 10,
-    name: { 'zh-CN': 'YouTube缩略图提取器', 'zh-HK': 'YouTube縮略圖提取器', 'en': 'YouTube Thumbnail Extractor' },
+    name: { 'zh-CN': 'YouTube缩略图提取器', 'en': 'YouTube Thumbnail Extractor' },
     description: { 
       'zh-CN': '提取YouTube视频的缩略图，支持多种分辨率', 
-      'zh-HK': '提取YouTube視頻嘅縮略圖，支持多種分辨率', 
       'en': 'Extract YouTube video thumbnails with multiple resolutions' 
     },
-    category: { 'zh-CN': '网络工具', 'zh-HK': '網絡工具', 'en': 'Network Tools' },
+    category: { 'zh-CN': '网络工具', 'en': 'Network Tools' },
     icon: '📺',
     url: '/tools/youtube-thumbnail',
     rating: 4.6,
@@ -183,13 +173,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 11,
-    name: { 'zh-CN': '二维码识别器', 'zh-HK': '二維碼識別器', 'en': 'QR Code Scanner' },
+    name: { 'zh-CN': '二维码识别器', 'en': 'QR Code Scanner' },
     description: { 
       'zh-CN': '在线识别二维码内容，支持图片上传和摄像头扫描', 
-      'zh-HK': '在線識別二維碼內容，支持圖片上傳同攝像頭掃描', 
       'en': 'Online QR code recognition supporting image upload and camera scan' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '📱',
     url: '/tools/qr-scanner',
     rating: 4.7,
@@ -199,13 +188,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 12,
-    name: { 'zh-CN': '图片尺寸调整工具', 'zh-HK': '圖片尺寸調整工具', 'en': 'Image Resizer' },
+    name: { 'zh-CN': '图片尺寸调整工具', 'en': 'Image Resizer' },
     description: { 
       'zh-CN': '在线调整图片尺寸，支持自定义宽高和比例缩放', 
-      'zh-HK': '在線調整圖片尺寸，支持自定義寬高同比例縮放', 
       'en': 'Online image resizing with custom dimensions and proportional scaling' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '🖼️',
     url: '/tools/image-resize',
     rating: 4.5,
@@ -215,13 +203,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 13,
-    name: { 'zh-CN': '图片转Base64编码工具', 'zh-HK': '圖片轉Base64編碼工具', 'en': 'Image to Base64 Converter' },
+    name: { 'zh-CN': '图片转Base64编码工具', 'en': 'Image to Base64 Converter' },
     description: { 
       'zh-CN': '将图片转换为Base64编码，支持多种图片格式', 
-      'zh-HK': '將圖片轉換為Base64編碼，支持多種圖片格式', 
       'en': 'Convert images to Base64 encoding supporting multiple formats' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '🔤',
     url: '/tools/image-to-base64',
     rating: 4.4,
@@ -231,13 +218,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 14,
-    name: { 'zh-CN': '在线图片马赛克工具', 'zh-HK': '在線圖片馬賽克工具', 'en': 'Online Image Mosaic Tool' },
+    name: { 'zh-CN': '在线图片马赛克工具', 'en': 'Online Image Mosaic Tool' },
     description: { 
       'zh-CN': '为图片添加马赛克效果，保护隐私信息', 
-      'zh-HK': '為圖片添加馬賽克效果，保護隱私信息', 
       'en': 'Add mosaic effects to images for privacy protection' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '🧩',
     url: '/tools/image-mosaic',
     rating: 4.3,
@@ -247,13 +233,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 15,
-    name: { 'zh-CN': '在线条形码生成器', 'zh-HK': '在線條形碼生成器', 'en': 'Online Barcode Generator' },
+    name: { 'zh-CN': '在线条形码生成器', 'en': 'Online Barcode Generator' },
     description: { 
       'zh-CN': '生成多种格式的条形码，支持自定义样式', 
-      'zh-HK': '生成多種格式嘅條形碼，支持自定義樣式', 
       'en': 'Generate barcodes in multiple formats with custom styling' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '📊',
     url: '/tools/barcode-generator',
     rating: 4.6,
@@ -263,13 +248,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 16,
-    name: { 'zh-CN': '幻影坦克生成器', 'zh-HK': '幻影坦克生成器', 'en': 'Phantom Tank Generator' },
+    name: { 'zh-CN': '幻影坦克生成器', 'en': 'Phantom Tank Generator' },
     description: { 
       'zh-CN': '生成幻影坦克效果图片，在不同背景下显示不同内容', 
-      'zh-HK': '生成幻影坦克效果圖片，在不同背景下顯示唔同內容', 
       'en': 'Generate phantom tank effect images showing different content on different backgrounds' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '🎭',
     url: '/tools/phantom-tank',
     rating: 4.2,
@@ -279,13 +263,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 17,
-    name: { 'zh-CN': '照片时间地点水印生成器', 'zh-HK': '照片時間地點水印生成器', 'en': 'Photo Watermark Generator' },
+    name: { 'zh-CN': '照片时间地点水印生成器', 'en': 'Photo Watermark Generator' },
     description: { 
       'zh-CN': '为照片添加时间、地点等水印信息', 
-      'zh-HK': '為照片添加時間、地點等水印信息', 
       'en': 'Add time, location and other watermark information to photos' 
     },
-    category: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' },
+    category: { 'zh-CN': '图像处理', 'en': 'Image Processing' },
     icon: '⏰',
     url: '/tools/photo-watermark',
     rating: 4.4,
@@ -295,13 +278,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 18,
-    name: { 'zh-CN': '七日年化收益率计算器', 'zh-HK': '七日年化收益率計算器', 'en': '7-Day Annualized Yield Calculator' },
+    name: { 'zh-CN': '七日年化收益率计算器', 'en': '7-Day Annualized Yield Calculator' },
     description: { 
       'zh-CN': '计算七日年化收益率，评估投资收益水平', 
-      'zh-HK': '計算七日年化收益率，評估投資收益水平', 
       'en': 'Calculate 7-day annualized yield to evaluate investment returns' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '💰',
     url: '/tools/annual-yield-calculator',
     rating: 4.5,
@@ -311,13 +293,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 19,
-    name: { 'zh-CN': '中秋博饼小工具', 'zh-HK': '中秋博餅小工具', 'en': 'Mid-Autumn Dice Game' },
+    name: { 'zh-CN': '中秋博饼小工具', 'en': 'Mid-Autumn Dice Game' },
     description: { 
       'zh-CN': '中秋博饼游戏模拟器，体验传统中秋文化', 
-      'zh-HK': '中秋博餅遊戲模擬器，體驗傳統中秋文化', 
       'en': 'Mid-Autumn dice game simulator to experience traditional culture' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '🎲',
     url: '/tools/mid-autumn-dice',
     rating: 4.7,
@@ -327,13 +308,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 20,
-    name: { 'zh-CN': '净利率计算器', 'zh-HK': '淨利率計算器', 'en': 'Net Profit Margin Calculator' },
+    name: { 'zh-CN': '净利率计算器', 'en': 'Net Profit Margin Calculator' },
     description: { 
       'zh-CN': '计算企业净利率，分析盈利能力', 
-      'zh-HK': '計算企業淨利率，分析盈利能力', 
-      'en': 'Calculate net profit margin to analyze business profitability' 
+      'en': 'Calculate net profit margin to analyze profitability' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '📈',
     url: '/tools/net-profit-margin',
     rating: 4.3,
@@ -343,13 +323,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 21,
-    name: { 'zh-CN': '租售比计算器', 'zh-HK': '租售比計算器', 'en': 'Rent-to-Price Ratio Calculator' },
+    name: { 'zh-CN': '租售比计算器', 'en': 'Rent-to-Price Ratio Calculator' },
     description: { 
       'zh-CN': '计算房产租售比，评估投资价值', 
-      'zh-HK': '計算房產租售比，評估投資價值', 
-      'en': 'Calculate rent-to-price ratio to evaluate real estate investment value' 
+      'en': 'Calculate rent-to-price ratio to evaluate investment value' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '🏠',
     url: '/tools/rent-to-price-ratio',
     rating: 4.4,
@@ -359,13 +338,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 22,
-    name: { 'zh-CN': '税率计算器', 'zh-HK': '稅率計算器', 'en': 'Tax Calculator' },
+    name: { 'zh-CN': '税率计算器', 'en': 'Tax Calculator' },
     description: { 
       'zh-CN': '计算个人所得税、增值税等多种税种的应纳税额', 
-      'zh-HK': '計算個人所得稅、增值稅等多種稅種嘅應納稅額', 
-      'en': 'Calculate tax amounts for personal income tax, VAT and other tax types' 
+      'en': 'Calculate taxes for income tax, VAT and other tax types' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '🧮',
     url: '/tools/tax-calculator',
     rating: 4.5,
@@ -375,13 +353,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 23,
-    name: { 'zh-CN': 'M3U8播放器', 'zh-HK': 'M3U8播放器', 'en': 'M3U8 Player' },
+    name: { 'zh-CN': 'M3U8播放器', 'en': 'M3U8 Player' },
     description: { 
       'zh-CN': '在线播放M3U8格式的视频流和直播内容', 
-      'zh-HK': '在線播放M3U8格式嘅視頻流同直播內容', 
-      'en': 'Online M3U8 format video stream and live content player' 
+      'en': 'Online M3U8 video stream and live content player' 
     },
-    category: { 'zh-CN': '网络工具', 'zh-HK': '網絡工具', 'en': 'Network Tools' },
+    category: { 'zh-CN': '网络工具', 'en': 'Network Tools' },
     icon: '🎬',
     url: '/tools/m3u8-player',
     rating: 4.6,
@@ -392,13 +369,12 @@ const mockTools: Tool[] = [
   // 新添加的7个工具
   {
     id: 24,
-    name: { 'zh-CN': '吃什么转盘', 'zh-HK': '食乜轉盤', 'en': 'Food Roulette' },
+    name: { 'zh-CN': '吃什么转盘', 'en': 'Food Roulette' },
     description: { 
       'zh-CN': '随机选择吃什么，解决选择困难症', 
-      'zh-HK': '隨機選擇食乜，解決選擇困難症', 
       'en': 'Random food selection to solve decision fatigue' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '🎡',
     url: '/tools/food-roulette',
     rating: 4.7,
@@ -408,13 +384,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 25,
-    name: { 'zh-CN': '在线提词器', 'zh-HK': '在線提詞器', 'en': 'Teleprompter' },
+    name: { 'zh-CN': '在线提词器', 'en': 'Teleprompter' },
     description: { 
       'zh-CN': '在线提词器，支持滚动速度和字体大小调整', 
-      'zh-HK': '在線提詞器，支持滾動速度同字體大小調整', 
-      'en': 'Online teleprompter with scroll speed and font size controls' 
+      'en': 'Online teleprompter with scroll speed and font size adjustment' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '📜',
     url: '/tools/teleprompter',
     rating: 4.6,
@@ -424,13 +399,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 26,
-    name: { 'zh-CN': '大小写转换器', 'zh-HK': '大小寫轉換器', 'en': 'Case Converter' },
+    name: { 'zh-CN': '大小写转换器', 'en': 'Case Converter' },
     description: { 
       'zh-CN': '文本大小写转换，支持多种转换格式', 
-      'zh-HK': '文本大小寫轉換，支持多種轉換格式', 
-      'en': 'Text case conversion with multiple format options' 
+      'en': 'Text case conversion supporting multiple formats' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '🔠',
     url: '/tools/case-converter',
     rating: 4.5,
@@ -440,13 +414,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 27,
-    name: { 'zh-CN': '按姓氏笔画排列顺序工具', 'zh-HK': '按姓氏筆畫排列順序工具', 'en': 'Name Sort by Stroke Count' },
+    name: { 'zh-CN': '按姓氏笔画排列顺序工具', 'en': 'Name Sort by Stroke Count' },
     description: { 
       'zh-CN': '按姓氏笔画数排列姓名顺序，支持笔画和拼音排序', 
-      'zh-HK': '按姓氏筆畫數排列姓名順序，支持筆畫同拼音排序', 
       'en': 'Sort names by surname stroke count with stroke and pinyin options' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '📝',
     url: '/tools/name-sort',
     rating: 4.4,
@@ -456,13 +429,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 28,
-    name: { 'zh-CN': '文字转时间计算器', 'zh-HK': '文字轉時間計算器', 'en': 'Text to Time Calculator' },
+    name: { 'zh-CN': '文字转时间计算器', 'en': 'Text to Time Calculator' },
     description: { 
       'zh-CN': '将文字描述转换为具体时间，支持中文数字和时间单位', 
-      'zh-HK': '將文字描述轉換為具體時間，支持中文數字同時間單位', 
       'en': 'Convert text descriptions to specific times with Chinese numbers and time units' 
     },
-    category: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' },
+    category: { 'zh-CN': '网页工具', 'en': 'Web Tools' },
     icon: '⏱️',
     url: '/tools/text-to-time',
     rating: 4.3,
@@ -472,13 +444,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 29,
-    name: { 'zh-CN': '文本按行分隔工具', 'zh-HK': '文本按行分隔工具', 'en': 'Text Line Splitter' },
+    name: { 'zh-CN': '文本按行分隔工具', 'en': 'Text Line Splitter' },
     description: { 
       'zh-CN': '按行、分隔符或固定长度分隔文本，支持多种处理选项', 
-      'zh-HK': '按行、分隔符或固定長度分隔文本，支持多種處理選項', 
-      'en': 'Split text by lines, delimiters or fixed length with multiple processing options' 
+      'en': 'Split text by lines, delimiters or fixed length with multiple options' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '📄',
     url: '/tools/text-splitter',
     rating: 4.5,
@@ -488,13 +459,12 @@ const mockTools: Tool[] = [
   },
   {
     id: 30,
-    name: { 'zh-CN': '文本计数器', 'zh-HK': '文本計數器', 'en': 'Text Counter' },
+    name: { 'zh-CN': '文本计数器', 'en': 'Text Counter' },
     description: { 
       'zh-CN': '统计文本字符数、字数、行数等详细信息', 
-      'zh-HK': '統計文本字符數、字數、行數等詳細信息', 
-      'en': 'Count characters, words, lines and other text statistics' 
+      'en': 'Count text characters, words, lines and other detailed information' 
     },
-    category: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' },
+    category: { 'zh-CN': '文本处理', 'en': 'Text Processing' },
     icon: '🔢',
     url: '/tools/text-counter',
     rating: 4.6,
@@ -506,14 +476,14 @@ const mockTools: Tool[] = [
 
 // 分类数据
 const categories = [
-  { id: 'all', name: { 'zh-CN': '所有工具', 'zh-HK': '所有工具', 'en': 'All Tools' } },
-  { id: 'development', name: { 'zh-CN': '开发工具', 'zh-HK': '開發工具', 'en': 'Development' } },
-  { id: 'text', name: { 'zh-CN': '文本处理', 'zh-HK': '文本處理', 'en': 'Text Processing' } },
-  { id: 'data', name: { 'zh-CN': '数据生成', 'zh-HK': '數據生成', 'en': 'Data Generation' } },
-  { id: 'encryption', name: { 'zh-CN': '加密解密', 'zh-HK': '加密解密', 'en': 'Encryption' } },
-  { id: 'network', name: { 'zh-CN': '网络工具', 'zh-HK': '網絡工具', 'en': 'Network Tools' } },
-  { id: 'image', name: { 'zh-CN': '图像处理', 'zh-HK': '圖像處理', 'en': 'Image Processing' } },
-  { id: 'web', name: { 'zh-CN': '网页工具', 'zh-HK': '網頁工具', 'en': 'Web Tools' } }
+  { id: 'all', name: { 'zh-CN': '所有工具', 'en': 'All Tools' } },
+  { id: 'development', name: { 'zh-CN': '开发工具', 'en': 'Development' } },
+  { id: 'text', name: { 'zh-CN': '文本处理', 'en': 'Text Processing' } },
+  { id: 'data', name: { 'zh-CN': '数据生成', 'en': 'Data Generation' } },
+  { id: 'encryption', name: { 'zh-CN': '加密解密', 'en': 'Encryption' } },
+  { id: 'network', name: { 'zh-CN': '网络工具', 'en': 'Network Tools' } },
+  { id: 'image', name: { 'zh-CN': '图像处理', 'en': 'Image Processing' } },
+  { id: 'web', name: { 'zh-CN': '网页工具', 'en': 'Web Tools' } }
 ]
 
 export default function ToolsPage() {
@@ -683,7 +653,7 @@ export default function ToolsPage() {
                           {tool.usageCount >= 1000 
                             ? `${(tool.usageCount / 1000).toFixed(1)}k` 
                             : tool.usageCount
-                          } {language === 'zh-CN' ? '次使用' : language === 'zh-HK' ? '次使用' : 'uses'}
+                          } {language === 'zh-CN' ? '次使用' : 'uses'}
                         </span>
                       </div>
                       <span className="text-blue-600 font-medium">

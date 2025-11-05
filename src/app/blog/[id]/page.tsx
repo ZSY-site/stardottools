@@ -13,12 +13,10 @@ const blogPosts = [
     id: 1,
     title: { 
       'zh-CN': 'ChatGPT Atlas浏览器官网下载 - OpenAI推出的AI智能浏览器', 
-      'zh-HK': 'ChatGPT Atlas瀏覽器官網下載 - OpenAI推出嘅AI智能瀏覽器', 
       'en': 'ChatGPT Atlas Browser Official Download - AI Smart Browser by OpenAI' 
     },
     excerpt: {
       'zh-CN': 'OpenAI推出的革命性AI浏览器，集成ChatGPT智能助手，支持侧边栏聊天、智能记忆、自动化操作等创新功能。',
-      'zh-HK': 'OpenAI推出嘅革命性AI瀏覽器，集成ChatGPT智能助手，支持側邊欄聊天、智能記憶、自動化操作等創新功能。',
       'en': 'Revolutionary AI browser by OpenAI, integrating ChatGPT smart assistant, supporting sidebar chat, intelligent memory, automation and other innovative features.'
     },
     content: {
@@ -154,138 +152,6 @@ ChatGPT Atlas浏览器代表了AI与浏览器融合的未来方向。它不仅�
 ---
 
 *本文由星点工具箱团队原创，转载请注明出处*`,
-      'zh-HK': `# ChatGPT Atlas瀏覽器簡介
-
-仲用緊傳統瀏覽器一個標籤頁一個標籤頁咁切換查找信息嗎？仲為咗複製粘貼各種內容到ChatGPT而煩惱嗎？
-
-OpenAI啱啱發佈咗一款革命性嘅產品——ChatGPT Atlas瀏覽器，直接將AI助手集成到瀏覽器裏面，讓你嘅網頁瀏覽體驗徹底升級。
-
-## ChatGPT Atlas瀏覽器係咩？
-
-ChatGPT Atlas係OpenAI推出嘅全新AI智能瀏覽器，將ChatGPT嘅強大能力直接嵌入到瀏覽體驗中。
-
-簡單嚟講，佢就好似俾你嘅瀏覽器裝上咗一個超級智能嘅助手，可以隨時隨地幫你分析網頁內容、回答問題、執行任務，而且完全唔需要切換到其他應用。
-
-## 核心功能亮點
-
-### 側邊欄智能聊天
-喺任何網頁上都能打開ChatGPT側邊欄，直接對當前頁面內容進行分析、總結或提問。
-
-### 智能記憶功能
-瀏覽器會記住你嘅偏好同歷史對話，提供更個性化嘅建議同幫助。
-
-### 自動化操作
-AI可以幫你執行複雜嘅網頁操作，比如填寫表單、搜索信息、比較產品等。
-
-### 隱私保護優先
-你可以完全控制邊啲網站可以被AI訪問，保護個人隱私。
-
-## 點解Atlas瀏覽器值得期待？
-
-### 徹底改變信息獲取方式
-傳統瀏覽器嘅使用流程通常係咁樣：打開網頁 → 閱讀內容 → 複製關鍵信息 → 切換到ChatGPT → 粘貼提問 → 獲得答案。
-
-而Atlas瀏覽器將呢個流程簡化為：打開網頁 → 直接喺側邊欄提問 → 立即獲得基於當前頁面嘅智能回答。
-
-我覺得呢種體驗提升係質嘅飛躍，特別係對於需要大量信息處理嘅工作場景。
-
-### 真正嘅智能化瀏覽
-Atlas唔只係簡單咁將ChatGPT嵌入瀏覽器，而係深度整合咗AI能力：
-
-- **內容理解**：AI能理解你正在瀏覽嘅內容，提供相關嘅建議同補充信息
-- **上下文連續性**：喺唔同網頁間切換時，AI能保持對話嘅連續性，記住之前嘅討論內容
-- **主動協助**：AI會主動識別你可能需要幫助嘅場景，比如複雜嘅表格數據、長篇文章總結等
-
-### 工作效率嘅革命性提升
-對於經常需要處理大量網頁信息嘅用戶嚟講，Atlas簡直係效率神器：
-
-- **研究工作者**：快速總結論文、對比唔同觀點
-- **內容創作者**：分析競品內容、獲取創作靈感
-- **商務人員**：快速了解市場信息、分析競爭對手
-- **學生群體**：理解複雜概念、整理學習資料
-
-## ChatGPT Atlas瀏覽器官網下載
-
-**官方下載地址**：https://openai.com/atlas
-
-目前Atlas瀏覽器仲處於預覽階段，需要ChatGPT Plus、Pro或Business賬戶才能體驗完整功能。
-
-### 系統要求
-
-**支持平台**：
-- Windows 10/11
-- macOS 10.15及以上版本
-- 暫不支持移動端（預計後續會推出）
-
-**硬件要求**：
-- 內存：至少8GB RAM
-- 存儲：500MB可用空間
-- 網絡：穩定嘅互聯網連接
-
-## 詳細功能解析
-
-### 側邊欄聊天功能
-呢個係Atlas最核心嘅功能。喺任何網頁上，你都可以通過快捷鍵或點擊按鈕打開ChatGPT側邊欄。
-
-**使用場景舉例**：
-- 閱讀新聞時，詢問"呢篇文章嘅主要觀點係咩？"
-- 瀏覽產品頁面時，問"呢個產品嘅優缺點分析"
-- 睇技術文檔時，請求"用簡單嘅話解釋呢個概念"
-
-側邊欄會基於當前頁面內容俾出精準回答，唔需要你手動複製粘貼任何內容。
-
-### 智能記憶系統
-Atlas嘅記憶功能讓佢能夠：
-- 記住你嘅偏好：比如你鍾意咩樣嘅信息呈現方式、關注邊啲領域嘅內容
-- 保持對話連續性：即使切換到唔同網頁，AI都能記住之前嘅對話內容
-- 個性化建議：基於你嘅瀏覽歷史同偏好，主動推薦相關內容或提供有用建議
-
-當然，所有呢啲記憶都係可控嘅，你可以隨時查看、編輯或刪除。
-
-### 自動化操作功能
-呢個可能係最令人興奮嘅功能喇。AI可以幫你執行複雜嘅網頁操作：
-- **購物助手**：幫你比較唔同網站嘅產品價格同評價，甚至協助完成購買流程
-- **研究助手**：自動收集多個網站嘅相關信息，整理成結構化嘅報告
-- **表單填寫**：智能填寫各種在線表單，節省大量重複性工作
-
-需要注意嘅係，所有自動化操作都喺你嘅完全控制下進行，AI唔會未經允許執行任何操作。
-
-### 文本協作功能
-Atlas仲有一個好實用嘅功能：將光標變成協作夥伴。
-
-選中任何網頁上嘅文本，就能直接獲得AI嘅幫助：
-- 重寫郵件內容
-- 總結長篇文章
-- 翻譯外語內容
-- 解釋專業術語
-
-呢個功能喺處理郵件、文檔編輯時特別有用。
-
-## 隱私保護與安全性
-
-OpenAI喺Atlas嘅隱私保護方面做得好用心：
-
-### 用戶完全控制
-- **網站訪問權限**：你可以精確控制邊啲網站允許AI訪問，邊啲唔允許
-- **瀏覽歷史管理**：可以隨時清除瀏覽歷史，使用無痕模式瀏覽
-- **記憶管理**：AI嘅所有記憶內容都可以查看、編輯同刪除
-
-### 數據安全保障
-- **本地處理優先**：盡可能喺本地處理數據，減少向服務器傳輸嘅信息
-- **加密傳輸**：所有網絡傳輸都採用端到端加密
-- **透明度報告**：OpenAI承諾定期發佈透明度報告，說明數據使用情況
-
-## 總結
-
-ChatGPT Atlas瀏覽器代表咗AI與瀏覽器融合嘅未來方向。佢唔只係工具升級，更係工作方式嘅革命性改變。
-
-如果你經常需要處理大量網頁信息，或者希望提升工作效率，Atlas絕對值得一試。雖然目前仲處於預覽階段，但已經展現出巨大嘅潛力。
-
-**立即體驗**：https://openai.com/atlas
-
----
-
-*本文由星點工具箱團隊原創，轉載請註明出處*`,
       'en': `# ChatGPT Atlas Browser Introduction
 
 Still using traditional browsers to switch between tabs one by one to find information? Still troubled by copying and pasting various content to ChatGPT?
@@ -419,9 +285,9 @@ If you frequently need to process large amounts of web information or want to im
 
 *This article is originally created by StarDot Tools Team, please indicate the source when reprinting*`
     },
-    category: { 'zh-CN': 'AI工具', 'zh-HK': 'AI工具', 'en': 'AI Tools' },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
     date: '2025-10-23',
-    readTime: { 'zh-CN': '5分钟阅读', 'zh-HK': '5分鐘閱讀', 'en': '5 min read' },
+    readTime: { 'zh-CN': '5分钟阅读', 'en': '5 min read' },
     featured: true,
     tags: ['ChatGPT浏览器', 'AI浏览器', 'OpenAI', 'Atlas浏览器', '智能浏览器', 'AI助手']
   },
@@ -429,12 +295,10 @@ If you frequently need to process large amounts of web information or want to im
     id: 2,
     title: { 
       'zh-CN': 'Perplexity Comet浏览器官网下载 - AI驱动的智能浏览器', 
-      'zh-HK': 'Perplexity Comet瀏覽器官網下載 - AI驅動嘅智能瀏覽器', 
       'en': 'Perplexity Comet Browser Official Download - AI-Powered Smart Browser' 
     },
     excerpt: {
       'zh-CN': 'Comet是由Perplexity推出的AI智能浏览器，集成强大的AI助手功能，支持智能搜索、内容理解、标签管理等创新功能。',
-      'zh-HK': 'Comet係由Perplexity推出嘅AI智能瀏覽器，集成強大嘅AI助手功能，支持智能搜索、內容理解、標籤管理等創新功能。',
       'en': 'Comet is an AI smart browser launched by Perplexity, integrating powerful AI assistant features, supporting intelligent search, content understanding, tag management and other innovative functions.'
     },
     content: {
@@ -454,22 +318,7 @@ Perplexity Comet是一款基于AI技术的智能浏览器，由知名AI公司Per
 
 Comet浏览器采用了最新的自然语言处理技术，能够更好地理解用户需求。
       `,
-      'zh-HK': `
-## Perplexity Comet瀏覽器概述
 
-Perplexity Comet係一款基於AI技術嘅智能瀏覽器，由知名AI公司Perplexity開發。呢款瀏覽器專注於提升用戶嘅搜索同內容理解體驗。
-
-### 核心功能
-
-- **智能搜索**：能夠理解用戶嘅搜索意圖，提供更精準嘅結果
-- **內容理解**：自動分析網頁內容，提取關鍵信息
-- **標籤管理**：智能分類同整理瀏覽歷史
-- **多語言支持**：支持多種語言嘅實時翻譯
-
-### 技術優勢
-
-Comet瀏覽器採用咗最新嘅自然語言處理技術，能夠更好地理解用戶需求。
-      `,
       'en': `
 ## Perplexity Comet Browser Overview
 
@@ -487,9 +336,9 @@ Perplexity Comet is an AI-powered smart browser developed by the well-known AI c
 Comet browser adopts the latest natural language processing technology to better understand user needs.
       `
     },
-    category: { 'zh-CN': 'AI工具', 'zh-HK': 'AI工具', 'en': 'AI Tools' },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
     date: '2025-10-23',
-    readTime: { 'zh-CN': '4分钟阅读', 'zh-HK': '4分鐘閱讀', 'en': '4 min read' },
+    readTime: { 'zh-CN': '4分钟阅读', 'en': '4 min read' },
     featured: true,
     tags: ['AI浏览器', 'Perplexity', 'Comet', '智能浏览器', 'AI助手', 'Comet浏览器下载']
   },
@@ -497,12 +346,10 @@ Comet browser adopts the latest natural language processing technology to better
     id: 3,
     title: { 
       'zh-CN': 'Next.js 14新特性详解 - 服务端组件和App Router', 
-      'zh-HK': 'Next.js 14新特性詳解 - 服務端組件同App Router', 
       'en': 'Next.js 14 New Features - Server Components and App Router' 
     },
     excerpt: {
       'zh-CN': '深入解析Next.js 14的最新特性，包括服务端组件、App Router、Turbopack等核心功能的详细使用指南。',
-      'zh-HK': '深入解析Next.js 14嘅最新特性，包括服務端組件、App Router、Turbopack等核心功能嘅詳細使用指南。',
       'en': 'In-depth analysis of Next.js 14 latest features, including server components, App Router, Turbopack and other core functionalities.'
     },
     content: {
@@ -556,56 +403,7 @@ Turbopack是新的构建工具，比Webpack快10倍以上：
 
 Next.js 14的这些改进使得构建高性能、可扩展的Web应用变得更加简单高效。
       `,
-      'zh-HK': `
-## Next.js 14新特性詳解
 
-Next.js 14帶來咗許多令人興奮嘅新特性，特別係服務端組件同App Router嘅改進。呢啲更新顯著提升咗開發體驗同應用性能。
-
-### 服務端組件（Server Components）
-
-服務端組件係Next.js 14最重要嘅改進之一。佢允許喺服務器端渲染組件，減少客戶端JavaScript嘅加載量。主要優勢包括：
-
-- **更細嘅包大小**：服務端組件唔會發送到客戶端，顯著減少初始加載時間
-- **更好嘅SEO**：內容喺服務器端完全渲染，搜索引擎更容易抓取
-- **直接訪問後端**：服務端組件可以直接訪問數據庫同API，無需額外嘅API調用
-- **自動代碼分割**：Next.js自動優化代碼分割策略，提高性能
-
-### App Router改進
-
-新嘅App Router提供咗更直觀嘅路由結構，支持嵌套佈局同並行路由：
-
-- **文件系統路由**：基於文件系統嘅路由結構，更加直觀易用
-- **嵌套佈局**：支持複雜嘅嵌套佈局結構，便於組織大型應用
-- **並行路由**：允許同時渲染多個頁面，提升用戶體驗
-- **加載狀態**：內置加載狀態管理，簡化異步數據加載處理
-
-### Turbopack構建工具
-
-Turbopack係新嘅構建工具，比Webpack快10倍以上：
-
-- **極速構建**：基於Rust開發，構建速度大幅提升
-- **增量編譯**：只重新編譯變更嘅文件，開發體驗更流暢
-- **更好嘅緩存**：智能緩存策略，減少重複構建時間
-- **TypeScript支持**：原生支持TypeScript，無需額外配置
-
-### 其他重要特性
-
-- **自動圖像優化**：自動優化圖像大小同格式，提升加載性能
-- **字體優化**：自動優化字體加載，減少佈局偏移
-- **中間件改進**：增強嘅中間件功能，支持更複雜嘅路由邏輯
-- **國際化支持**：更好嘅國際化支持，簡化多語言應用開發
-
-### 升級建議
-
-對於現有項目，建議逐步遷移到Next.js 14：
-
-1. 首先升級依賴版本
-2. 逐步遷移到App Router
-3. 測試服務端組件嘅使用
-4. 優化構建配置使用Turbopack
-
-Next.js 14嘅呢啲改進使得構建高性能、可擴展嘅Web應用變得更加簡單高效。
-      `,
       'en': `
 ## Next.js 14 New Features
 
@@ -657,9 +455,9 @@ For existing projects, it's recommended to gradually migrate to Next.js 14:
 These improvements in Next.js 14 make building high-performance, scalable web applications simpler and more efficient.
       `
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-23',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: true,
     tags: ['Next.js', 'React', '前端框架', '服务端渲染', 'App Router']
   },
@@ -667,12 +465,10 @@ These improvements in Next.js 14 make building high-performance, scalable web ap
     id: 4,
     title: { 
       'zh-CN': 'TypeScript 5.5新功能解析 - 类型系统优化', 
-      'zh-HK': 'TypeScript 5.5新功能解析 - 類型系統優化', 
       'en': 'TypeScript 5.5 New Features - Type System Optimization' 
     },
     excerpt: {
       'zh-CN': 'TypeScript 5.5带来了多项类型系统优化，包括改进的推断能力、新的实用类型和更好的错误提示。',
-      'zh-HK': 'TypeScript 5.5帶來咗多項類型系統優化，包括改進嘅推斷能力、新嘅實用類型同更好嘅錯誤提示。',
       'en': 'TypeScript 5.5 brings multiple type system optimizations, including improved inference capabilities, new utility types and better error messages.'
     },
     content: {
@@ -735,65 +531,7 @@ TypeScript 5.5在性能方面也有显著提升：
 
 TypeScript 5.5的这些改进使得类型系统更加健壮，开发体验更加流畅。
       `,
-      'zh-HK': `
-## TypeScript 5.5新功能解析
 
-TypeScript 5.5喺類型系統方面進行咗多項優化，顯著提升咗開發體驗同代碼質量。
-
-### 改進嘅類型推斷
-
-新嘅類型推斷算法能夠更好地理解複雜嘅類型關係，主要改進包括：
-
-- **更智能嘅條件類型推斷**：喺條件類型中提供更準確嘅類型推斷結果
-- **改進嘅泛型約束推斷**：更好地處理泛型約束同類型參數嘅關係
-- **增強嘅聯合類型推斷**：對聯合類型嘅推斷更加精確，減少類型錯誤
-- **更好嘅字面量類型推斷**：對字符串同數字字面量嘅推斷更加智能
-
-### 新嘅實用類型
-
-TypeScript 5.5新增咗幾個實用嘅類型工具，簡化咗類型定義：
-
-- **Awaited類型增強**：改進咗對Promise鏈嘅類型推斷
-- **Partial類型優化**：對部分類型嘅處理更加高效
-- **Required類型改進**：對必需屬性嘅檢查更加嚴格
-- **新嘅條件類型工具**：提供咗更多處理複雜類型邏輯嘅工具
-
-### 更好嘅錯誤提示
-
-錯誤信息更加清晰，幫助開發者快速定位問題：
-
-- **更詳細嘅錯誤信息**：錯誤信息包含更多上下文信息
-- **改進嘅錯誤定位**：更準確地指出錯誤發生嘅位置
-- **智能建議**：提供修復錯誤嘅智能建議
-- **類型追蹤**：更好地追蹤類型錯誤嘅來源
-
-### 性能優化
-
-TypeScript 5.5喺性能方面都有顯著提升：
-
-- **更快嘅類型檢查**：類型檢查速度提升咗15-20%
-- **內存使用優化**：減少咗內存佔用，提高大型項目嘅處理能力
-- **增量編譯改進**：增量編譯更加高效，開發體驗更流暢
-- **構建時間優化**：整體構建時間有所減少
-
-### 語言服務改進
-
-- **更好嘅自動完成**：代碼自動完成更加智能同準確
-- **改進嘅重構工具**：重構功能更加可靠同強大
-- **增強嘅代碼導航**：代碼導航功能更加便捷
-- **實時錯誤檢查**：實時錯誤檢查響應更快
-
-### 遷移建議
-
-對於現有項目，升級到TypeScript 5.5嘅建議：
-
-1. 首先備份項目，確保有回滾方案
-2. 逐步升級依賴，測試兼容性
-3. 利用新嘅類型工具優化現有代碼
-4. 測試構建性能同類型檢查速度
-
-TypeScript 5.5嘅呢啲改進使得類型系統更加健壯，開發體驗更加流暢。
-      `,
       'en': `
 ## TypeScript 5.5 New Features
 
@@ -854,9 +592,9 @@ For existing projects, recommendations for upgrading to TypeScript 5.5:
 These improvements in TypeScript 5.5 make the type system more robust and the development experience smoother.
       `
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-22',
-    readTime: { 'zh-CN': '6分钟阅读', 'zh-HK': '6分鐘閱讀', 'en': '6 min read' },
+    readTime: { 'zh-CN': '6分钟阅读', 'en': '6 min read' },
     featured: false,
     tags: ['TypeScript', 'JavaScript', '类型系统', '前端开发']
   },
@@ -864,12 +602,10 @@ These improvements in TypeScript 5.5 make the type system more robust and the de
     id: 5,
     title: { 
       'zh-CN': 'Docker容器化部署最佳实践', 
-      'zh-HK': 'Docker容器化部署最佳實踐', 
       'en': 'Docker Container Deployment Best Practices' 
     },
     excerpt: {
       'zh-CN': '分享Docker容器化部署的最佳实践，包括镜像优化、网络配置、安全设置和性能调优。',
-      'zh-HK': '分享Docker容器化部署嘅最佳實踐，包括鏡像優化、網絡配置、安全設置同性能調優。',
       'en': 'Sharing Docker container deployment best practices, including image optimization, network configuration, security settings and performance tuning.'
     },
     content: {
@@ -938,71 +674,7 @@ Docker容器化是现代应用部署的重要方式，掌握最佳实践对于�
 
 通过遵循这些最佳实践，可以构建出安全、高效、可维护的Docker容器化部署方案。
       `,
-      'zh-HK': `
-## Docker容器化部署最佳實踐
 
-Docker容器化係現代應用部署嘅重要方式，掌握最佳實踐對於確保應用嘅穩定性、安全性同可擴展性至關重要。
-
-### 鏡像優化策略
-
-鏡像優化係Docker部署嘅核心環節，主要策略包括：
-
-- **多階段構建**：使用多階段構建分離構建環境同運行環境，顯著減細鏡像大小
-- **最小化基礎鏡像**：選擇Alpine Linux等輕量級基礎鏡像，減少不必要嘅依賴
-- **層緩存優化**：合理安排Dockerfile指令順序，充分利用層緩存機制
-- **依賴管理**：只安裝必要嘅依賴包，定期清理緩存同臨時文件
-- **鏡像掃描**：使用安全掃描工具檢查鏡像中嘅安全漏洞
-
-### 網絡配置最佳實踐
-
-合理嘅網絡配置確保服務間通信嘅安全可靠：
-
-- **網絡隔離**：為唔同服務創建獨立嘅網絡，實現網絡層面嘅隔離
-- **DNS配置**：合理配置容器DNS，確保服務發現同名稱解析
-- **端口管理**：避免使用默認端口，配置安全嘅端口映射策略
-- **負載均衡**：使用Docker Swarm或Kubernetes實現服務負載均衡
-- **網絡策略**：配置網絡策略限制不必要嘅網絡訪問
-
-### 安全設置與權限管理
-
-安全係容器化部署嘅重中之重：
-
-- **非root用戶運行**：避免使用root用戶運行容器，降低安全風險
-- **資源限制**：設置CPU、內存等資源限制，防止資源耗盡攻擊
-- **只讀文件系統**：將容器文件系統設置為只讀，減少攻擊面
-- **安全上下文**：配置適當嘅安全上下文同權限
-- **密鑰管理**：使用Docker Secrets或外部密鑰管理服務管理敏感信息
-
-### 存儲與數據管理
-
-- **數據卷管理**：使用數據卷持久化重要數據
-- **備份策略**：制定定期備份策略，確保數據安全
-- **存儲驅動選擇**：根據應用特點選擇合適嘅存儲驅動
-- **日誌管理**：配置集中式日誌收集同分析
-
-### 監控與運維
-
-- **健康檢查**：配置容器健康檢查，自動重啟異常容器
-- **監控指標**：收集容器性能指標，實時監控應用狀態
-- **日誌聚合**：使用ELK或類似工具實現日誌集中管理
-- **自動擴縮容**：根據負載自動調整容器數量
-
-### 持續集成與部署
-
-- **CI/CD集成**：將Docker構建集成到CI/CD流水線
-- **鏡像倉庫管理**：使用私有鏡像倉庫管理鏡像版本
-- **自動化測試**：喺容器環境中運行自動化測試
-- **藍綠部署**：實現零停機部署同快速回滾
-
-### 性能優化技巧
-
-- **資源優化**：合理分配CPU同內存資源
-- **網絡優化**：優化容器網絡性能
-- **存儲優化**：選擇合適嘅存儲方案
-- **啟動優化**：優化容器啟動時間
-
-通過遵循呢啲最佳實踐，可以構建出安全、高效、可維護嘅Docker容器化部署方案。
-      `,
       'en': `
 ## Docker Container Deployment Best Practices
 
@@ -1069,9 +741,9 @@ Security is the top priority in containerized deployment:
 By following these best practices, you can build secure, efficient, and maintainable Docker containerized deployment solutions.
       `
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-21',
-    readTime: { 'zh-CN': '10分钟阅读', 'zh-HK': '10分鐘閱讀', 'en': '10 min read' },
+    readTime: { 'zh-CN': '10分钟阅读', 'en': '10 min read' },
     featured: true,
     tags: ['Docker', '容器化', '部署', 'DevOps', '云原生']
   },
@@ -1079,12 +751,10 @@ By following these best practices, you can build secure, efficient, and maintain
     id: 6,
     title: { 
       'zh-CN': 'Node.js性能优化技巧', 
-      'zh-HK': 'Node.js性能優化技巧', 
       'en': 'Node.js Performance Optimization Tips' 
     },
     excerpt: {
       'zh-CN': '深入探讨Node.js应用的性能优化技巧，包括内存管理、事件循环优化和异步编程最佳实践。',
-      'zh-HK': '深入探討Node.js應用嘅性能優化技巧，包括內存管理、事件循環優化同異步編程最佳實踐。',
       'en': 'In-depth discussion of Node.js application performance optimization techniques, including memory management, event loop optimization and asynchronous programming best practices.'
     },
     content: {
@@ -1175,93 +845,7 @@ Node.js作为高性能的JavaScript运行时，性能优化是开发中的重要
 
 通过系统性的性能优化，可以构建出高性能、高可用的Node.js应用。
       `,
-      'zh-HK': `
-## Node.js性能優化技巧
 
-Node.js作為高性能嘅JavaScript運行時，性能優化係開發中嘅重要環節。通過合理嘅優化策略，可以顯著提升應用嘅響應速度同處理能力。
-
-### 異步編程優化
-
-異步編程係Node.js嘅核心特性，優化策略包括：
-
-- **Promise優化**：合理使用Promise.all()處理並行異步操作，避免不必要嘅串行執行
-- **Async/Await**：正確使用async/await語法，避免回調地獄，提高代碼可讀性
-- **事件循環理解**：深入理解Node.js事件循環機制，避免阻塞主線程
-- **流處理**：使用Stream處理大文件同數據流，減少內存佔用
-- **Worker Threads**：利用Worker Threads處理CPU密集型任務，避免阻塞事件循環
-
-### 內存管理與垃圾回收
-
-內存管理直接影響應用性能：
-
-- **內存洩漏檢測**：使用heapdump同Chrome DevTools檢測內存洩漏
-- **對象池模式**：對頻繁創建銷毀嘅對象使用對象池，減少GC壓力
-- **Buffer管理**：合理使用Buffer，避免不必要嘅內存複製
-- **GC調優**：根據應用特點調整垃圾回收參數
-- **內存監控**：實現實時內存監控，及時發現異常
-
-### 緩存策略與優化
-
-緩存係提升性能嘅有效手段：
-
-- **多級緩存**：實現內存緩存、Redis緩存、CDN緩存等多級緩存機制
-- **緩存失效策略**：合理設置緩存失效時間，平衡數據一致性同性能
-- **緩存預熱**：喺應用啟動時預熱常用數據到緩存
-- **分布式緩存**：使用Redis Cluster等實現分布式緩存
-- **緩存穿透防護**：實現布隆過濾器等機制防止緩存穿透
-
-### 數據庫性能優化
-
-數據庫操作往往係性能瓶頸：
-
-- **連接池優化**：合理配置數據庫連接池參數
-- **查詢優化**：優化SQL查詢，使用索引，避免全表掃描
-- **批量操作**：使用批量插入、更新操作減少數據庫往返
-- **讀寫分離**：實現主從複製同讀寫分離
-- **ORM優化**：合理使用ORM框架，避免N+1查詢問題
-
-### 網絡與I/O優化
-
-網絡同I/O性能優化：
-
-- **HTTP/2支持**：啟用HTTP/2協議提升網絡傳輸效率
-- **壓縮優化**：使用gzip、brotli等壓縮算法減少傳輸數據量
-- **CDN加速**：合理使用CDN加速靜態資源訪問
-- **連接複用**：實現HTTP連接複用，減少連接建立開銷
-- **DNS優化**：優化DNS解析，使用DNS緩存
-
-### 代碼層面優化
-
-代碼層面嘅性能優化：
-
-- **算法優化**：選擇合適嘅數據結構同算法
-- **避免全局變量**：減少全局變量使用，避免命名衝突同內存佔用
-- **模塊加載優化**：合理使用require緩存，避免重複加載
-- **錯誤處理優化**：優化錯誤處理邏輯，避免不必要嘅性能開銷
-- **代碼分割**：實現代碼分割，按需加載模塊
-
-### 監控與診斷
-
-性能監控同診斷：
-
-- **性能指標監控**：監控CPU、內存、響應時間等關鍵指標
-- **APM工具**：使用New Relic、AppDynamics等APM工具
-- **日誌分析**：實現結構化日誌同日誌分析
-- **性能測試**：定期進行壓力測試同性能測試
-- **問題診斷**：使用profiling工具診斷性能問題
-
-### 部署與運維優化
-
-部署同運維層面嘅優化：
-
-- **容器化部署**：使用Docker容器化部署，實現資源隔離
-- **負載均衡**：配置負載均衡，實現水平擴展
-- **自動擴縮容**：根據負載自動調整實例數量
-- **進程管理**：使用PM2等工具管理Node.js進程
-- **安全優化**：實現安全配置，防止安全漏洞影響性能
-
-通過系統性嘅性能優化，可以構建出高性能、高可用嘅Node.js應用。
-      `,
       'en': `
 ## Node.js Performance Optimization Techniques
 
@@ -1350,9 +934,9 @@ Deployment and operations-level optimization:
 Through systematic performance optimization, high-performance, highly available Node.js applications can be built.
       `
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-20',
-    readTime: { 'zh-CN': '7分钟阅读', 'zh-HK': '7分鐘閱讀', 'en': '7 min read' },
+    readTime: { 'zh-CN': '7分钟阅读', 'en': '7 min read' },
     featured: false,
     tags: ['Node.js', '性能优化', 'JavaScript', '后端开发']
   },
@@ -1360,12 +944,10 @@ Through systematic performance optimization, high-performance, highly available 
     id: 7,
     title: { 
       'zh-CN': 'React 18并发特性深度解析', 
-      'zh-HK': 'React 18併發特性深度解析', 
       'en': 'React 18 Concurrent Features Deep Dive' 
     },
     excerpt: {
       'zh-CN': '详细解析React 18的并发特性，包括自动批处理、过渡更新和Suspense等新功能。',
-      'zh-HK': '詳細解析React 18嘅併發特性，包括自動批處理、過渡更新同Suspense等新功能。',
       'en': 'Detailed analysis of React 18 concurrent features, including automatic batching, transition updates and Suspense.'
     },
     content: {
@@ -1455,92 +1037,7 @@ React 18对服务端渲染进行了重大改进：
 
 React 18的并发特性为现代Web应用开发带来了革命性的改进，通过合理使用这些特性，可以构建出更加响应迅速、用户体验更好的应用。
       `,
-      'zh-HK': `
-## React 18併發特性深度解析
 
-React 18引入咗革命性嘅併發特性，徹底改變咗React應用嘅渲染方式同用戶體驗。呢啲特性使得應用能夠更好地響應用戶交互，提供更流暢嘅用戶體驗。
-
-### 併發渲染基礎
-
-併發渲染係React 18嘅核心特性，它允許React喺渲染過程中中斷同恢復工作：
-
-- **可中斷渲染**：React可以喺渲染過程中暫停，優先處理更重要嘅更新
-- **併發優先級**：唔同類型嘅更新具有唔同嘅優先級，確保用戶交互嘅及時響應
-- **時間切片**：將渲染工作分割成細塊，避免長時間阻塞主線程
-- **併發模式API**：提供咗新嘅API來利用併發特性
-
-### 自動批處理優化
-
-自動批處理係React 18嘅重要改進，顯著提升咗性能：
-
-- **事件處理批處理**：喺事件處理函數中嘅所有狀態更新會自動批處理
-- **異步操作批處理**：Promise、setTimeout等異步操作中嘅狀態更新也會批處理
-- **減少渲染次數**：通過批處理減少不必要嘅組件重新渲染
-- **性能提升**：顯著降低咗渲染開銷，提高咗應用響應速度
-- **向後兼容**：自動批處理對現有代碼完全兼容，無需修改
-
-### 過渡更新機制
-
-過渡更新機制允許開發者區分緊急同非緊急更新：
-
-- **startTransition API**：使用startTransition標記非緊急更新
-- **優先級調度**：緊急更新（如用戶輸入）優先於過渡更新
-- **用戶體驗優化**：確保用戶交互嘅即時響應，延遲非關鍵更新
-- **加載狀態管理**：配合Suspense提供更好嘅加載體驗
-- **性能監控**：可以監控過渡更新嘅執行時間同影響
-
-### Suspense增強功能
-
-Suspense喺React 18中得到咗顯著增強：
-
-- **服務端渲染支持**：Suspense而家可以喺服務端渲染中正常工作
-- **流式渲染**：支持流式HTML渲染，逐步發送頁面內容
-- **選擇性水合**：只對可見內容進行水合，提高首屏加載速度
-- **錯誤邊界集成**：與錯誤邊界更好地集成，提供更健壯嘅錯誤處理
-- **嵌套Suspense**：支持多層嵌套嘅Suspense組件
-
-### 新嘅Hooks同API
-
-React 18引入咗多個新嘅Hooks同API來支持併發特性：
-
-- **useTransition**：用於實現過渡更新嘅Hook
-- **useDeferredValue**：延遲某個值嘅更新，避免不必要嘅重新渲染
-- **useId**：生成唯一嘅ID，適用於服務端同客戶端渲染
-- **useSyncExternalStore**：用於外部狀態管理嘅Hook
-- **useInsertionEffect**：專門用於CSS-in-JS庫嘅Effect Hook
-
-### 服務端渲染改進
-
-React 18對服務端渲染進行咗重大改進：
-
-- **流式SSR**：支持流式服務端渲染，逐步發送HTML內容
-- **選擇性水合**：只對可見內容進行水合，提高首屏性能
-- **Suspense支持**：服務端渲染而家完全支持Suspense
-- **錯誤處理**：改進咗服務端渲染嘅錯誤處理機制
-- **性能優化**：顯著提升咗服務端渲染嘅性能同用戶體驗
-
-### 性能優化技巧
-
-使用React 18併發特性嘅性能優化技巧：
-
-- **合理使用過渡更新**：將非關鍵更新標記為過渡更新
-- **優化Suspense使用**：合理設置Suspense嘅fallback內容
-- **避免不必要嘅重新渲染**：使用useMemo同useCallback優化性能
-- **監控性能指標**：使用React DevTools監控應用性能
-- **漸進式遷移**：可以逐步遷移到併發特性，無需重寫整個應用
-
-### 遷移指南同最佳實踐
-
-從舊版本遷移到React 18嘅最佳實踐：
-
-- **兼容性檢查**：檢查現有代碼與React 18嘅兼容性
-- **漸進式採用**：可以逐步啟用併發特性
-- **測試策略**：制定全面嘅測試策略，確保遷移安全
-- **性能基準**：建立性能基準，監控遷移後嘅性能變化
-- **團隊培訓**：培訓團隊成員掌握新嘅併發特性
-
-React 18嘅併發特性為現代Web應用開發帶來咗革命性嘅改進，通過合理使用呢啲特性，可以構建出更加響應迅速、用戶體驗更好嘅應用。
-      `,
       'en': `
 ## React 18 Concurrent Features Deep Dive
 
@@ -1628,9 +1125,9 @@ Best practices for migrating from older versions to React 18:
 React 18's concurrent features bring revolutionary improvements to modern web application development. By properly utilizing these features, developers can build more responsive applications with better user experiences.
       `
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-19',
-    readTime: { 'zh-CN': '9分钟阅读', 'zh-HK': '9分鐘閱讀', 'en': '9 min read' },
+    readTime: { 'zh-CN': '9分钟阅读', 'en': '9 min read' },
     featured: false,
     tags: ['React', '前端框架', '并发渲染', 'JavaScript']
   },
@@ -1638,12 +1135,10 @@ React 18's concurrent features bring revolutionary improvements to modern web ap
     id: 8,
     title: { 
       'zh-CN': 'Python FastAPI高性能Web框架指南', 
-      'zh-HK': 'Python FastAPI高性能Web框架指南', 
       'en': 'Python FastAPI High Performance Web Framework Guide' 
     },
     excerpt: {
       'zh-CN': 'FastAPI是现代Python Web框架，具有自动API文档生成、类型提示和高性能特性。',
-      'zh-HK': 'FastAPI係現代Python Web框架，具有自動API文檔生成、類型提示同高性能特性。',
       'en': 'FastAPI is a modern Python web framework with automatic API documentation generation, type hints and high performance.'
     },
     content: {
@@ -1765,124 +1260,7 @@ FastAPI在各种场景下的实际应用案例：
 
 FastAPI凭借其高性能、易用性和强大的功能，已经成为Python Web开发的首选框架之一。无论是构建小型API还是大型企业级应用，FastAPI都能提供出色的开发体验和运行性能。
       `,
-      'zh-HK': `
-## Python FastAPI高性能Web框架指南
 
-FastAPI係一個現代、快速（高性能）嘅Python Web框架，用於構建API。它基於標準Python類型提示，具有極高嘅性能，接近Node.js同Go嘅速度。FastAPI結合咗Starlette（用於Web部分）同Pydantic（用於數據部分）嘅優勢。
-
-### FastAPI核心特性
-
-FastAPI提供咗許多強大嘅核心特性，使其成為現代Web開發嘅理想選擇：
-
-- **高性能**：基於Starlette同Pydantic，性能接近Node.js同Go
-- **快速開發**：減少約40%嘅人為錯誤，開發速度提升200%-300%
-- **直觀**：強大嘅編輯器支持，自動補全功能完善
-- **易於使用**：學習曲線平緩，文檔豐富且易於理解
-- **簡潔**：最小化代碼重複，每個參數聲明都有多種功能
-- **健壯**：生產就緒嘅代碼，具有自動交互式文檔
-- **基於標準**：基於（並完全兼容）API嘅開放標準：OpenAPI同JSON Schema
-
-### 異步編程支持
-
-FastAPI充分利用咗Python嘅異步特性，提供咗卓越嘅併發處理能力：
-
-- **異步/等待語法**：使用現代Python異步語法，代碼簡潔易讀
-- **高併發處理**：支持數千個併發連接，適合I/O密集型應用
-- **WebSocket支持**：內置WebSocket支持，適合實時應用
-- **後台任務**：支持後台任務處理，不影響主請求響應
-- **依賴注入系統**：強大嘅依賴注入系統，支持異步依賴
-- **中間件支持**：支持自定義中間件，擴展框架功能
-
-### 自動API文檔生成
-
-FastAPI自動生成交互式API文檔，極大提升咗開發效率：
-
-- **OpenAPI標準**：完全兼容OpenAPI 3.0標準
-- **交互式文檔**：自動生成Swagger UI同ReDoc文檔
-- **實時測試**：可以直接喺文檔界面測試API端點
-- **類型安全**：基於Python類型提示自動生成文檔
-- **多語言支持**：支持多種語言嘅文檔界面
-- **自定義文檔**：可以自定義文檔嘅樣式同內容
-
-### 數據驗證和序列化
-
-基於Pydantic嘅數據驗證系統提供咗強大嘅數據安全保障：
-
-- **類型驗證**：基於Python類型提示嘅自動數據驗證
-- **數據轉換**：自動將請求數據轉換為Python對象
-- **錯誤處理**：詳細嘅驗證錯誤信息，便於調試
-- **嵌套模型**：支持複雜嵌套數據結構嘅驗證
-- **自定義驗證**：支持自定義驗證規則同約束
-- **序列化控制**：精確控制數據嘅序列化輸出
-
-### 安全和認證
-
-FastAPI內置咗完善嘅安全特性，確保API嘅安全性：
-
-- **OAuth2集成**：內置OAuth2密碼流支持
-- **JWT令牌**：支持JSON Web Token認證
-- **API密鑰**：支持多種API密鑰認證方式
-- **CORS支持**：內置跨域資源共享支持
-- **HTTPS重定向**：支持HTTP到HTTPS嘅自動重定向
-- **安全頭設置**：自動設置安全相關嘅HTTP頭
-
-### 數據庫集成
-
-FastAPI與各種數據庫系統無縫集成：
-
-- **SQL數據庫**：支持SQLAlchemy，提供ORM功能
-- **NoSQL數據庫**：支持MongoDB、Redis等NoSQL數據庫
-- **異步數據庫**：支持異步數據庫操作，提升性能
-- **連接池**：內置數據庫連接池管理
-- **遷移工具**：支持Alembic等數據庫遷移工具
-- **測試支持**：提供數據庫測試嘅便利工具
-
-### 測試和調試
-
-FastAPI提供咗完善嘅測試同調試支持：
-
-- **測試客戶端**：內置測試客戶端，便於編寫測試
-- **依賴覆蓋**：支持測試時嘅依賴覆蓋
-- **調試工具**：集成Python調試器支持
-- **性能分析**：內置性能分析工具
-- **日誌記錄**：完善嘅日誌記錄系統
-- **錯誤追踪**：支持錯誤追踪同監控
-
-### 部署和生產環境
-
-FastAPI應用可以輕鬆部署到各種生產環境：
-
-- **Docker容器**：支持Docker容器化部署
-- **雲平台**：可以部署到AWS、Azure、GCP等雲平台
-- **服務器配置**：支持Uvicorn、Hypercorn等ASGI服務器
-- **負載均衡**：支持負載均衡配置
-- **監控指標**：提供應用性能監控指標
-- **健康檢查**：內置健康檢查端點
-
-### 最佳實踐和性能優化
-
-使用FastAPI時嘅最佳實踐同性能優化技巧：
-
-- **代碼組織**：合理嘅項目結構同代碼組織
-- **緩存策略**：使用適當嘅緩存策略提升性能
-- **異步優化**：合理使用異步操作避免阻塞
-- **錯誤處理**：完善嘅錯誤處理同用戶反饋
-- **安全配置**：生產環境嘅安全配置建議
-- **性能監控**：持續監控應用性能指標
-
-### 實際應用案例
-
-FastAPI在各種場景下嘅實際應用案例：
-
-- **微服務架構**：作為微服務架構中嘅API網關
-- **數據API**：為前端應用提供數據API服務
-- **機器學習服務**：部署機器學習模型作為API服務
-- **實時應用**：構建實時聊天、通知等應用
-- **移動後端**：作為移動應用嘅後端API服務
-- **企業內部系統**：構建企業內部嘅管理系統API
-
-FastAPI憑藉其高性能、易用性同強大嘅功能，已經成為Python Web開發嘅首選框架之一。無論係構建小型API還係大型企業級應用，FastAPI都能提供出色嘅開發體驗同運行性能。
-      `,
       'en': `
 ## Python FastAPI High Performance Web Framework Guide
 
