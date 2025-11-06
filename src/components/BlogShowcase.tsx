@@ -188,8 +188,7 @@ export default function BlogShowcase() {
             href="/blog" 
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
-            {language === 'zh-CN' ? '查看全部博客文章' : 
-             language === 'zh-HK' ? '查看全部博客文章' : 'View All Blog Posts'}
+            {language === 'zh-CN' ? '查看全部博客文章' : 'View All Blog Posts'}
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

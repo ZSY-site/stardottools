@@ -132,7 +132,7 @@ export default function ToolCategories() {
               
               <div className="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
                 <span className="text-sm text-gray-500">
-                  {category.toolCount} {language === 'zh-CN' ? '个工具' : language === 'zh-HK' ? '個工具' : 'tools'}
+                  {category.toolCount} {language === 'zh-CN' ? '个工具' : 'tools'}
                 </span>
                 <button className="text-blue-600 hover:text-blue-700 font-medium text-sm">
                   {t.common.viewAll} →

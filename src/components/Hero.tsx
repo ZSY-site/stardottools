@@ -45,12 +45,9 @@ export default function Hero() {
           {/* 副标题 */}
           <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
             {language === 'zh-CN' ? '专业级在线工具集合，为开发者、设计师和办公人员提供' : 
-             language === 'zh-HK' ? '專業級在線工具集合，為開發者、設計師同辦公人員提供' :
              'Professional online tool collection for developers, designers and office workers'}
             <span className="text-blue-600 font-semibold">
-              {language === 'zh-CN' ? '一站式解决方案' : 
-               language === 'zh-HK' ? '一站式解決方案' :
-               'one-stop solution'}
+              {language === 'zh-CN' ? '一站式解决方案' : 'one-stop solution'}
             </span>
           </p>
           
@@ -67,9 +64,7 @@ export default function Hero() {
               onClick={goToBlog}
               className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 hover:text-blue-700 px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 backdrop-blur-sm cursor-pointer"
             >
-              {language === 'zh-CN' ? '查看教程文档' : 
-               language === 'zh-HK' ? '查看教程文檔' :
-               'View Tutorials'}
+              {language === 'zh-CN' ? '查看教程文档' : 'View Tutorials'}
             </button>
           </div>
         </div>

@@ -1380,9 +1380,9 @@ Real-world application cases of FastAPI in various scenarios:
 With its high performance, ease of use, and powerful features, FastAPI has become one of the preferred frameworks for Python web development. Whether building small APIs or large enterprise applications, FastAPI delivers excellent development experience and runtime performance.
       `
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-18',
-    readTime: { 'zh-CN': '6分钟阅读', 'zh-HK': '6分鐘閱讀', 'en': '6 min read' },
+    readTime: { 'zh-CN': '6分钟阅读', 'en': '6 min read' },
     featured: false,
     tags: ['Python', 'FastAPI', 'Web框架', '后端开发']
   },
@@ -1390,12 +1390,10 @@ With its high performance, ease of use, and powerful features, FastAPI has becom
     id: 9,
     title: { 
       'zh-CN': 'Tailwind CSS实用技巧与最佳实践', 
-      'zh-HK': 'Tailwind CSS實用技巧與最佳實踐', 
       'en': 'Tailwind CSS Practical Tips and Best Practices' 
     },
     excerpt: {
       'zh-CN': '分享Tailwind CSS在实际项目中的使用技巧，包括组件提取、自定义配置和性能优化。',
-      'zh-HK': '分享Tailwind CSS在實際項目中嘅使用技巧，包括組件提取、自定義配置同性能優化。',
       'en': 'Sharing Tailwind CSS usage tips in real projects, including component extraction, custom configuration and performance optimization.'
     },
     content: {
@@ -1526,133 +1524,7 @@ Tailwind CSS与现代前端技术栈的集成：
 
 Tailwind CSS通过其实用优先的设计理念和强大的自定义能力，为现代Web开发提供了高效的样式解决方案。掌握这些实用技巧和最佳实践，将帮助您构建出既美观又高性能的Web应用。
       `,
-      'zh-HK': `
-## Tailwind CSS實用技巧與最佳實踐
 
-Tailwind CSS係一個功能強大、高度可定制嘅實用優先CSS框架，它通過提供低級別嘅實用類來構建自定義設計，而無需編寫自定義CSS。Tailwind CSS嘅設計理念係"實用優先"，這意味著您可以直接喺HTML中使用預定義嘅類來構建界面，而無需編寫自定義CSS。
-
-### Tailwind CSS核心概念
-
-理解Tailwind CSS嘅核心概念係有效使用該框架嘅關鍵：
-
-- **實用優先**：通過組合實用類來構建界面，而唔係編寫自定義CSS
-- **響應式設計**：內置響應式前綴，輕鬆實現移動優先設計
-- **狀態變體**：支持hover、focus、active等狀態樣式
-- **可配置性**：高度可定制嘅設計系統，可以完全自定義
-- **性能優化**：通過PurgeCSS自動移除未使用嘅CSS
-- **組件思維**：鼓勵提取可復用嘅組件類
-- **設計系統**：基於約束嘅設計系統，確保設計一致性
-
-### 組件提取與復用策略
-
-合理提取同復用組件係提高Tailwind CSS開發效率嘅關鍵：
-
-- **@apply指令**：使用@apply指令提取重複嘅實用類組合
-- **組件類命名**：採用有意義嘅組件類命名規範
-- **組件抽象級別**：根據復用頻率確定組件嘅抽象級別
-- **組件變體**：支持不同變體嘅組件設計
-- **組件組合**：通過組合小組件構建複雜界面
-- **組件文檔**：為組件編寫清晰嘅文檔同使用示例
-- **組件測試**：確保組件喺不同場景下嘅表現一致
-
-### 自定義配置與主題定制
-
-Tailwind CSS提供咗強大嘅自定義配置系統：
-
-- **顏色系統**：自定義品牌色、功能色同語義色
-- **字體配置**：配置字體族、字重同行高
-- **間距系統**：自定義間距、邊距同填充嘅縮放比例
-- **斷點配置**：自定義響應式斷點以適應不同設備
-- **插件系統**：通過插件擴展Tailwind嘅功能
-- **變體配置**：自定義狀態變體同響應式變體
-- **CSS變量**：使用CSS變量實現動態主題切換
-
-### 性能優化與構建配置
-
-優化Tailwind CSS項目嘅性能至關重要：
-
-- **PurgeCSS配置**：正確配置PurgeCSS以移除未使用嘅CSS
-- **JIT模式**：使用Just-In-Time模式實現按需生成CSS
-- **構建優化**：優化構建過程以減少CSS文件大小
-- **緩存策略**：實現CSS文件嘅緩存策略提升加載性能
-- **代碼分割**：按需加載CSS文件減少初始加載時間
-- **壓縮優化**：使用CSS壓縮工具進一步減小文件大小
-- **CDN加速**：通過CDN加速CSS文件嘅加載
-
-### 響應式設計最佳實踐
-
-利用Tailwind CSS實現優秀嘅響應式設計：
-
-- **移動優先**：採用移動優先嘅設計方法
-- **斷點策略**：合理使用斷點實現漸進增強
-- **響應式實用類**：掌握響應式前綴嘅使用技巧
-- **容器查詢**：利用容器查詢實現組件級響應式
-- **圖片優化**：響應式圖片同圖片優化策略
-- **性能考慮**：響應式設計中嘅性能優化考慮
-- **測試驗證**：喺不同設備上測試響應式效果
-
-### 狀態管理與交互設計
-
-處理用戶交互同狀態變化嘅Tailwind CSS技巧：
-
-- **狀態變體**：hover、focus、active等狀態嘅處理
-- **過渡動畫**：使用transition同animation實現平滑過渡
-- **交互反饋**：為用戶操作提供清晰嘅視覺反饋
-- **加載狀態**：處理異步操作嘅加載狀態
-- **錯誤狀態**：錯誤狀態嘅可視化表示
-- **禁用狀態**：禁用狀態下嘅樣式處理
-- **表單交互**：表單元素嘅交互狀態管理
-
-### 可訪問性最佳實踐
-
-確保Tailwind CSS項目具有良好的可訪問性：
-
-- **語義化HTML**：使用正確嘅HTML語義標籤
-- **焦點管理**：確保焦點可見且邏輯合理
-- **顏色對比**：滿足WCAG顏色對比度要求
-- **鍵盤導航**：支持完整嘅鍵盤導航
-- **屏幕閱讀器**：優化屏幕閱讀器體驗
-- **ARIA屬性**：合理使用ARIA屬性增強可訪問性
-- **測試工具**：使用可訪問性測試工具驗證
-
-### 團隊協作與代碼規範
-
-喺團隊項目中有效使用Tailwind CSS：
-
-- **代碼規範**：制定統一嘅Tailwind CSS代碼規範
-- **命名約定**：建立組件同類嘅命名約定
-- **代碼審查**：喺代碼審查中關注Tailwind使用
-- **文檔維護**：維護項目中嘅Tailwind使用文檔
-- **工具集成**：集成編輯器插件提升開發體驗
-- **培訓計劃**：為團隊成員提供Tailwind培訓
-- **最佳實踐**：分享同推廣Tailwind最佳實踐
-
-### 與其他技術棧集成
-
-Tailwind CSS與現代前端技術棧嘅集成：
-
-- **React集成**：喺React項目中使用Tailwind CSS
-- **Vue集成**：Vue.js項目中嘅Tailwind配置
-- **Next.js集成**：Next.js框架下嘅Tailwind使用
-- **TypeScript**：TypeScript項目中嘅類型安全
-- **組件庫**：基於Tailwind構建組件庫
-- **設計系統**：將Tailwind融入設計系統
-- **構建工具**：與各種構建工具嘅集成配置
-
-### 實際項目案例分析
-
-分析真實項目中Tailwind CSS嘅應用案例：
-
-- **電商網站**：電商平台嘅Tailwind CSS實現
-- **管理後台**：管理後台系統嘅樣式設計
-- **移動應用**：移動端應用嘅響應式設計
-- **營銷頁面**：營銷頁面嘅快速原型開發
-- **博客系統**：博客網站嘅樣式定制
-- **企業官網**：企業官網嘅設計系統構建
-- **複雜應用**：複雜單頁應用嘅樣式管理
-
-Tailwind CSS通過其實用優先嘅設計理念同強大嘅自定義能力，為現代Web開發提供咗高效嘅樣式解決方案。掌握這些實用技巧同最佳實踐，將幫助您構建出既美觀又高性能嘅Web應用。
-      `,
       'en': `
 ## Tailwind CSS Practical Tips and Best Practices
 
@@ -1781,9 +1653,9 @@ Analyze Tailwind CSS application cases in real projects:
 Tailwind CSS provides efficient styling solutions for modern web development through its utility-first design philosophy and powerful customization capabilities. Mastering these practical tips and best practices will help you build beautiful, high-performance web applications.
       `
     },
-    category: { 'zh-CN': '前端开发', 'zh-HK': '前端開發', 'en': 'Frontend Development' },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
     date: '2025-10-17',
-    readTime: { 'zh-CN': '5分钟阅读', 'zh-HK': '5分鐘閱讀', 'en': '5 min read' },
+    readTime: { 'zh-CN': '5分钟阅读', 'en': '5 min read' },
     featured: false,
     tags: ['Tailwind CSS', 'CSS框架', '前端开发', '样式']
   },
@@ -1791,12 +1663,10 @@ Tailwind CSS provides efficient styling solutions for modern web development thr
     id: 10,
     title: { 
       'zh-CN': 'Git高级技巧与团队协作规范', 
-      'zh-HK': 'Git高級技巧與團隊協作規範', 
       'en': 'Git Advanced Techniques and Team Collaboration Standards' 
     },
     excerpt: {
       'zh-CN': '深入讲解Git的高级使用技巧，包括分支管理、合并策略和团队协作的最佳实践。',
-      'zh-HK': '深入講解Git嘅高級使用技巧，包括分支管理、合併策略同團隊協作嘅最佳實踐。',
       'en': 'In-depth explanation of Git advanced techniques, including branch management, merge strategies and team collaboration best practices.'
     },
     content: {
@@ -2212,9 +2082,9 @@ Summarize best practices for Git usage:
 By mastering these advanced techniques and team collaboration standards, you will be able to use Git more efficiently, improve individual and team development efficiency, and ensure smooth project progress.
       `
     },
-    category: { 'zh-CN': '开发工具', 'zh-HK': '開發工具', 'en': 'Development Tools' },
+    category: { 'zh-CN': '开发工具', 'en': 'Development Tools' },
     date: '2025-10-16',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: false,
     tags: ['Git', '版本控制', '团队协作', '开发工具']
   },
@@ -2222,12 +2092,10 @@ By mastering these advanced techniques and team collaboration standards, you wil
     id: 11,
     title: { 
       'zh-CN': '微服务架构设计与实践指南', 
-      'zh-HK': '微服務架構設計與實踐指南', 
       'en': 'Microservices Architecture Design and Practice Guide' 
     },
     excerpt: {
       'zh-CN': '深入探讨微服务架构的设计原则、实施策略和最佳实践，包括服务拆分、通信机制和运维管理。',
-      'zh-HK': '深入探討微服務架構嘅設計原則、實施策略同最佳實踐，包括服務拆分、通信機制同運維管理。',
       'en': 'In-depth discussion of microservices architecture design principles, implementation strategies and best practices, including service decomposition, communication mechanisms and operational management.'
     },
     content: {
@@ -2643,9 +2511,9 @@ Organizational and cultural changes for microservices architecture:
 By systematically learning the design principles and practical experience of microservices architecture, you will be able to build highly available, scalable, and maintainable distributed systems, providing a solid technical foundation for business innovation.
       `
     },
-    category: { 'zh-CN': '后端开发', 'zh-HK': '後端開發', 'en': 'Backend Development' },
+    category: { 'zh-CN': '后端开发', 'en': 'Backend Development' },
     date: '2025-10-15',
-    readTime: { 'zh-CN': '7分钟阅读', 'zh-HK': '7分鐘閱讀', 'en': '7 min read' },
+    readTime: { 'zh-CN': '7分钟阅读', 'en': '7 min read' },
     featured: false,
     tags: ['微服务', '架构设计', '分布式系统', '容器化']
   },
@@ -2653,12 +2521,10 @@ By systematically learning the design principles and practical experience of mic
     id: 12,
     title: { 
       'zh-CN': '人工智能在软件开发中的应用与最佳实践', 
-      'zh-HK': '人工智能在軟件開發中的應用與最佳實踐', 
       'en': 'Artificial Intelligence Applications and Best Practices in Software Development' 
     },
     excerpt: {
       'zh-CN': '探索人工智能如何改变软件开发流程，从代码生成到测试自动化，再到智能调试和性能优化。',
-      'zh-HK': '探索人工智能如何改變軟件開發流程，從代碼生成到測試自動化，再到智能調試和性能優化。',
       'en': 'Explore how artificial intelligence is transforming software development processes, from code generation to test automation, intelligent debugging, and performance optimization.'
     },
     content: {
@@ -2921,9 +2787,9 @@ Future development directions of AI in the software development field:
 
 By properly applying AI technology, developers can significantly improve development efficiency, reduce error rates, and focus on more creative work.`
     },
-    category: { 'zh-CN': '人工智能', 'zh-HK': '人工智能', 'en': 'Artificial Intelligence' },
+    category: { 'zh-CN': '人工智能', 'en': 'Artificial Intelligence' },
     date: '2025-10-20',
-    readTime: { 'zh-CN': '8分钟阅读', 'zh-HK': '8分鐘閱讀', 'en': '8 min read' },
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: true,
     tags: ['人工智能', '软件开发', 'AI辅助编程', '智能测试']
   }
