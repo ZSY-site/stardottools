@@ -201,21 +201,37 @@ const blogPosts = [
   {
     id: 13,
     title: { 
+      'zh-CN': 'AI代码助手工具比较：GitHub Copilot vs Cursor vs Codeium', 
+      'en': 'AI Code Assistant Comparison: GitHub Copilot vs Cursor vs Codeium' 
+    },
+    excerpt: {
+      'zh-CN': '深度比较三大主流AI代码助手的功能特性、使用体验和适用场景，帮助开发者选择最适合的工具。',
+      'en': 'In-depth comparison of three major AI code assistants in terms of features, user experience and application scenarios to help developers choose the most suitable tool.'
+    },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
+    date: '2025-10-26',
+    readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
+    featured: true,
+    tags: ['AI代码助手', 'GitHub Copilot', 'Cursor', 'Codeium', '编程工具', 'AI编程']
+  },
+  {
+    id: 14,
+    title: { 
       'zh-CN': 'Google Analytics 4 (GA4) 网站数据分析最佳实践', 
       'en': 'Google Analytics 4 (GA4) Website Data Analysis Best Practices' 
     },
     excerpt: {
-      'zh-CN': '深入解析GA4的核心功能、配置技巧和数据分析方法，帮助网站运营者充分利用数据驱动决策。',
-      'en': 'In-depth analysis of GA4 core features, configuration techniques and data analysis methods to help website operators make data-driven decisions.'
+      'zh-CN': '分享GA4数据分析的最佳实践，包括事件跟踪、用户行为分析和转化优化技巧。',
+      'en': 'Sharing GA4 data analysis best practices, including event tracking, user behavior analysis and conversion optimization techniques.'
     },
     category: { 'zh-CN': '数据分析', 'en': 'Data Analysis' },
-    date: '2025-10-26',
+    date: '2025-10-13',
     readTime: { 'zh-CN': '7分钟阅读', 'en': '7 min read' },
-    featured: true,
-    tags: ['Google Analytics', 'GA4', '数据分析', '网站分析', '数据驱动', 'SEO优化']
+    featured: false,
+    tags: ['GA4', '数据分析', 'Google Analytics', '网站分析']
   },
   {
-    id: 14,
+    id: 15,
     title: { 
       'zh-CN': '人工智能在软件开发中的应用与最佳实践', 
       'en': 'Artificial Intelligence Applications and Best Practices in Software Development' 
@@ -229,6 +245,22 @@ const blogPosts = [
     readTime: { 'zh-CN': '8分钟阅读', 'en': '8 min read' },
     featured: true,
     tags: ['人工智能', '软件开发', 'AI辅助编程', '智能测试']
+  },
+  {
+    id: 16,
+    title: { 
+      'zh-CN': '2025年11月：前端开发趋势与技术展望',
+      'en': 'November 2025: Frontend Development Trends and Technology Outlook'
+    },
+    excerpt: {
+      'zh-CN': '探索2025年11月前端开发的最新趋势、新兴技术和未来发展方向，为开发者提供技术路线图。',
+      'en': 'Explore the latest trends, emerging technologies, and future directions in frontend development for November 2025, providing a technical roadmap for developers.'
+    },
+    category: { 'zh-CN': '前端开发', 'en': 'Frontend Development' },
+    date: '2025-11-01',
+    readTime: { 'zh-CN': '12分钟阅读', 'en': '12 min read' },
+    featured: true,
+    tags: ['前端开发', '技术趋势', 'React', 'Vue', 'Next.js', 'TypeScript']
   }
 ]
 
