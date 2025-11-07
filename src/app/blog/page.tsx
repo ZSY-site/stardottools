@@ -261,6 +261,22 @@ const blogPosts = [
     readTime: { 'zh-CN': '12分钟阅读', 'en': '12 min read' },
     featured: true,
     tags: ['前端开发', '技术趋势', 'React', 'Vue', 'Next.js', 'TypeScript']
+  },
+  {
+    id: 17,
+    title: { 
+      'zh-CN': '现代Web开发工具链：从构建到部署的完整指南',
+      'en': 'Modern Web Development Toolchain: Complete Guide from Build to Deployment'
+    },
+    excerpt: {
+      'zh-CN': '全面介绍现代Web开发工具链，涵盖构建工具、包管理器、测试框架、CI/CD等关键环节的最佳实践。',
+      'en': 'Comprehensive introduction to modern web development toolchain, covering best practices for build tools, package managers, testing frameworks, CI/CD and other key aspects.'
+    },
+    category: { 'zh-CN': '开发工具', 'en': 'Development Tools' },
+    date: '2025-11-07',
+    readTime: { 'zh-CN': '15分钟阅读', 'en': '15 min read' },
+    featured: true,
+    tags: ['Web开发', '工具链', '构建工具', 'CI/CD', '测试框架', '部署', '开发效率']
   }
 ]
 
