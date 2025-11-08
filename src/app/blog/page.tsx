@@ -277,6 +277,22 @@ const blogPosts = [
     readTime: { 'zh-CN': '15分钟阅读', 'en': '15 min read' },
     featured: true,
     tags: ['Web开发', '工具链', '构建工具', 'CI/CD', '测试框架', '部署', '开发效率']
+  },
+  {
+    id: 18,
+    title: { 
+      'zh-CN': '2025年最佳AI编程助手深度评测：从代码生成到调试优化',
+      'en': '2025 Best AI Programming Assistants Deep Review: From Code Generation to Debugging Optimization'
+    },
+    excerpt: {
+      'zh-CN': '全面评测2025年主流AI编程助手，包括GitHub Copilot、Cursor、Codeium等，分析其代码生成、调试、优化能力及适用场景。',
+      'en': 'Comprehensive review of mainstream AI programming assistants in 2025, including GitHub Copilot, Cursor, Codeium, etc., analyzing their code generation, debugging, optimization capabilities and application scenarios.'
+    },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
+    date: '2025-11-08',
+    readTime: { 'zh-CN': '12分钟阅读', 'en': '12 min read' },
+    featured: true,
+    tags: ['AI编程助手', 'GitHub Copilot', 'Cursor', 'Codeium', '代码生成', '智能调试', '编程效率', 'AI工具']
   }
 ]
 
