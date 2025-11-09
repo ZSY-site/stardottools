@@ -293,6 +293,22 @@ const blogPosts = [
     readTime: { 'zh-CN': '12分钟阅读', 'en': '12 min read' },
     featured: true,
     tags: ['AI编程助手', 'GitHub Copilot', 'Cursor', 'Codeium', '代码生成', '智能调试', '编程效率', 'AI工具']
+  },
+  {
+    id: 19,
+    title: { 
+      'zh-CN': '2025年11月AI工具趋势分析：从代码生成到内容创作',
+      'en': 'November 2025 AI Tools Trend Analysis: From Code Generation to Content Creation'
+    },
+    excerpt: {
+      'zh-CN': '深入分析2025年11月AI工具的最新发展趋势，涵盖代码生成、内容创作、图像处理、语音识别等领域的创新应用。',
+      'en': 'In-depth analysis of the latest development trends in AI tools for November 2025, covering innovative applications in code generation, content creation, image processing, speech recognition and other fields.'
+    },
+    category: { 'zh-CN': 'AI工具', 'en': 'AI Tools' },
+    date: '2025-11-09',
+    readTime: { 'zh-CN': '10分钟阅读', 'en': '10 min read' },
+    featured: true,
+    tags: ['AI工具', '技术趋势', '代码生成', '内容创作', '图像处理', '语音识别', 'AI创新', '2025趋势']
   }
 ]
 
